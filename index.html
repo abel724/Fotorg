@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -112,12 +111,83 @@
     <img src="FotoArchivio/F054.jpg" alt="Foto F054">
     <img src="FotoArchivio/F055.jpg" alt="Foto F055">
     <img src="FotoArchivio/F056.jpg" alt="Foto F056">
-    <img src="FotoArchivio/F057.jpg" alt="Foto F057">
+    <img src="FotoArchivio/F057.jpg" alt="Foto F057">    
+    <img src="FotoArchivio/F058.jpg" alt="Foto F058">
+    <img src="FotoArchivio/F059.jpg" alt="Foto F059">
+    <img src="FotoArchivio/F060.jpg" alt="Foto F060">
+    <img src="FotoArchivio/F061.jpg" alt="Foto F061>
+    <img src="FotoArchivio/F062.jpg" alt="Foto F062">
+    <img src="FotoArchivio/F063.jpg" alt="Foto F063">
+    <img src="FotoArchivio/F064.jpg" alt="Foto F064">
+    <img src="FotoArchivio/F065.jpg" alt="Foto F065">
+    <img src="FotoArchivio/F066.jpg" alt="Foto F066">
+    <img src="FotoArchivio/F067.jpg" alt="Foto F067">
+    <img src="FotoArchivio/F068.jpg" alt="Foto F068">
+    <img src="FotoArchivio/F069.jpg" alt="Foto F069">
+    <img src="FotoArchivio/F070.jpg" alt="Foto F070">
+    <img src="FotoArchivio/F071.jpg" alt="Foto F071">
+    <img src="FotoArchivio/F072.jpg" alt="Foto F072">
+    <img src="FotoArchivio/F073.jpg" alt="Foto F073">
+    <img src="FotoArchivio/F074.jpg" alt="Foto F074">
+    <img src="FotoArchivio/F075.jpg" alt="Foto F075">
+</div>    
+    <div id="modal" style="
+    display:none;
+    position:fixed;
+    z-index:1000;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.85);
+    align-items:center;
+    justify-content:center;
+">
+
+    <span id="chiudi" style="
+        position:absolute;
+        top:15px;
+        right:25px;
+        color:white;
+        font-size:40px;
+        font-weight:bold;
+        cursor:pointer;
+    ">&times;</span>
+
+    <img id="fotoIngrandita" src="" style="
+        max-width:95%;
+        max-height:90%;
+        object-fit:contain;
+    ">
+</div>
+
+<script>
+    const immagini = document.querySelectorAll(".galleria img");
+    const modal = document.getElementById("modal");
+    const fotoIngrandita = document.getElementById("fotoIngrandita");
+    const chiudi = document.getElementById("chiudi");
+
+    immagini.forEach(function(immagine) {
+        immagine.onclick = function() {
+            fotoIngrandita.src = immagine.src;
+            modal.style.display = "flex";
+        };
+    });
+
+    chiudi.onclick = function() {
+        modal.style.display = "none";
+    };
+
+    modal.onclick = function(event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    };
+</script>
+
+</body>
+</html>
     
-</div>
-
-</body>
-</html>
 
 
 
@@ -129,27 +199,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-</body>
-</html>
