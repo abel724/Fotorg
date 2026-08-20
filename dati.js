@@ -1,6 +1,6 @@
 const datiFoto = {};
 
-for (let i = 1; i <= 75; i++) {
+for (let i = 1; i <= 200; i++) {
     const numero = String(i).padStart(3, "0");
 
     datiFoto["F" + numero] = {
@@ -8,11 +8,8 @@ for (let i = 1; i <= 75; i++) {
         persone: []
     };
 }
-
-// DATI DI PROVA
-
 datiFoto["F001"] = {
-    evento: "Raduno ORGonauti presso Auchan del 18/12/2025",
+    evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
     persone: ["Enzo Antonacci", "Mariella Tangorra"]
 };
 
@@ -21,10 +18,15 @@ datiFoto["F002"] = {
     persone: ["Enzo Loperfido", "Raffaele Cocchiaro"]
 };
 
+datiFoto["F005"] = {
+    evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
+    persone: ["Rosa Lodeserto", "Vittorio Ritelli"]
+};
+
 datiFoto["F008"] = {
-    evento: "Centro meccanografico siderurgico",
+    evento: "Cena per avviamento progetto",
     persone: [
-        "Cesarin Gervasi",
+        "Cesarino Gervasi",
         "Sebastiano Gonnella",
         "Piero Spedicati",
         "Antonio Violino",
@@ -39,20 +41,46 @@ datiFoto["F008"] = {
 datiFoto["F009"] = {
     evento: "Evento sconosciuto",
     persone: [
-        "Donato Sofia",
         "Enzo Picheca",
         "Enzo De Leonardis",
-        "Remo Epifani"
+        "Remo Epifani",
+        "Donato Addabbo",
+        "Giacinto Garofalo",
+        "Nicola Chisena",
+        "Luciano Cambara",
+        "Franco Perna",
+        "Franco De Vitis",
+        "Giacinto Dell'Erba",
+        "Donato Sofia"
     ]
 };
 
+datiFoto["F010"] = {
+    evento: "Partita di calcio aziendale",
+    persone: [
+        "Mimmo Pignatelli",
+        "Giacinto Garofalo",
+        "Enzo De Leonardis",
+        "Donato Sofia",
+        "Antonio Violino",
+        "Michele Calabrese",
+        "Peppe Rizzo",
+        "Orazio Meo",
+        "Leonardo Francavilla",
+        "Stefano Bellucco",
+        "Giovanni Spagnuolo",
+        "Raffaele Aceto",
+        "Pippo Pasquino"
+    ]
+};
 datiFoto["F017"] = {
-    evento: "Raduno ORGonauti presso Auchan del 18/12/2025",
+    evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
     persone: [
         "Alberto Belforte",
         "Vittorio Ritelli",
-        "Ciccio Di Maggio",
+        "Franco Di Maggio",
         "Mariapia De Marzo",
         "Rosa Lodeserto"
     ]
 };
+

@@ -76,84 +76,30 @@
             box-sizing:border-box;
         "
     >
+<div class="galleria" id="galleria">
 </div>
-<div class="galleria">
 
-    <img src="FotoArchivio/F001.jpg" alt="Foto F001">
-    <img src="FotoArchivio/F002.jpg" alt="Foto F002">
-    <img src="FotoArchivio/F003.jpg" alt="Foto F003">
-    <img src="FotoArchivio/F004.jpg" alt="Foto F004">
-    <img src="FotoArchivio/F005.jpg" alt="Foto F005">
-    <img src="FotoArchivio/F006.jpg" alt="Foto F006">
-    <img src="FotoArchivio/F007.jpg" alt="Foto F007">
-    <img src="FotoArchivio/F008.jpg" alt="Foto F008">
-    <img src="FotoArchivio/F009.jpg" alt="Foto F009">
-    <img src="FotoArchivio/F010.jpg" alt="Foto F010">
-    <img src="FotoArchivio/F011.jpg" alt="Foto F011">
-    <img src="FotoArchivio/F012.jpg" alt="Foto F012">
-    <img src="FotoArchivio/F013.jpg" alt="Foto F013">
-    <img src="FotoArchivio/F014.jpg" alt="Foto F014">
-    <img src="FotoArchivio/F015.jpg" alt="Foto F015">
-    <img src="FotoArchivio/F016.jpg" alt="Foto F016">
-    <img src="FotoArchivio/F017.jpg" alt="Foto F017">
-    <img src="FotoArchivio/F018.jpg" alt="Foto F018">
-    <img src="FotoArchivio/F019.jpg" alt="Foto F019">
-    <img src="FotoArchivio/F020.jpg" alt="Foto F020">
-    <img src="FotoArchivio/F021.jpg" alt="Foto F021">
-    <img src="FotoArchivio/F022.jpg" alt="Foto F022">
-    <img src="FotoArchivio/F023.jpg" alt="Foto F023">
-    <img src="FotoArchivio/F024.jpg" alt="Foto F024">
-    <img src="FotoArchivio/F025.jpg" alt="Foto F025">
-    <img src="FotoArchivio/F026.jpg" alt="Foto F026">
-    <img src="FotoArchivio/F027.jpg" alt="Foto F027">
-    <img src="FotoArchivio/F028.jpg" alt="Foto F028">
-    <img src="FotoArchivio/F029.jpg" alt="Foto F029">
-    <img src="FotoArchivio/F030.jpg" alt="Foto F030">
-    <img src="FotoArchivio/F031.jpg" alt="Foto F031">
-    <img src="FotoArchivio/F032.jpg" alt="Foto F032">
-    <img src="FotoArchivio/F033.jpg" alt="Foto F033">
-    <img src="FotoArchivio/F034.jpg" alt="Foto F034">
-    <img src="FotoArchivio/F035.jpg" alt="Foto F035">
-    <img src="FotoArchivio/F036.jpg" alt="Foto F036">
-    <img src="FotoArchivio/F037.jpg" alt="Foto F037">
-    <img src="FotoArchivio/F038.jpg" alt="Foto F038">
-    <img src="FotoArchivio/F039.jpg" alt="Foto F039">
-    <img src="FotoArchivio/F040.jpg" alt="Foto F040">
-    <img src="FotoArchivio/F041.jpg" alt="Foto F041">
-    <img src="FotoArchivio/F042.jpg" alt="Foto F042">
-    <img src="FotoArchivio/F043.jpg" alt="Foto F043">
-    <img src="FotoArchivio/F044.jpg" alt="Foto F044">
-    <img src="FotoArchivio/F045.jpg" alt="Foto F045">
-    <img src="FotoArchivio/F046.jpg" alt="Foto F046">
-    <img src="FotoArchivio/F047.jpg" alt="Foto F047">
-    <img src="FotoArchivio/F048.jpg" alt="Foto F048">
-    <img src="FotoArchivio/F049.jpg" alt="Foto F049">
-    <img src="FotoArchivio/F050.jpg" alt="Foto F050">
-    <img src="FotoArchivio/F051.jpg" alt="Foto F051">
-    <img src="FotoArchivio/F052.jpg" alt="Foto F052">
-    <img src="FotoArchivio/F053.jpg" alt="Foto F053">
-    <img src="FotoArchivio/F054.jpg" alt="Foto F054">
-    <img src="FotoArchivio/F055.jpg" alt="Foto F055">
-    <img src="FotoArchivio/F056.jpg" alt="Foto F056">
-    <img src="FotoArchivio/F057.jpg" alt="Foto F057">    
-    <img src="FotoArchivio/F058.jpg" alt="Foto F058">
-    <img src="FotoArchivio/F059.jpg" alt="Foto F059">
-    <img src="FotoArchivio/F060.jpg" alt="Foto F060">
-    <img src="FotoArchivio/F061.jpg" alt="Foto F061">
-    <img src="FotoArchivio/F062.jpg" alt="Foto F062">
-    <img src="FotoArchivio/F063.jpg" alt="Foto F063">
-    <img src="FotoArchivio/F064.jpg" alt="Foto F064">
-    <img src="FotoArchivio/F065.jpg" alt="Foto F065">
-    <img src="FotoArchivio/F066.jpg" alt="Foto F066">
-    <img src="FotoArchivio/F067.jpg" alt="Foto F067">
-    <img src="FotoArchivio/F068.jpg" alt="Foto F068">
-    <img src="FotoArchivio/F069.jpg" alt="Foto F069">
-    <img src="FotoArchivio/F070.jpg" alt="Foto F070">
-    <img src="FotoArchivio/F071.jpg" alt="Foto F071">
-    <img src="FotoArchivio/F072.jpg" alt="Foto F072">
-    <img src="FotoArchivio/F073.jpg" alt="Foto F073">
-    <img src="FotoArchivio/F074.jpg" alt="Foto F074">
-    <img src="FotoArchivio/F075.jpg" alt="Foto F075">
+<script>
+const galleria = document.getElementById("galleria");
+
+for (let i = 1; i <= 200; i++) {
+
+    const numero = String(i).padStart(3, "0");
+    const codice = "F" + numero;
+
+    const img = document.createElement("img");
+
+    img.src = "FotoArchivio/" + codice + ".jpg";
+    img.alt = "Foto " + codice;
+    img.title = codice;
+
+    img.onerror = function() {
+        img.remove();
+    };
+
+    galleria.appendChild(img);
+}
+</script>    
 </div>    
 <div id="modal" style="
     display:none;
@@ -190,7 +136,9 @@
         <div id="nomeFoto" style="
             font-size:24px;
             font-weight:bold;
-            margin-bottom:15px;
+            margin-bottom:15px;     
+            color:white;
+
         "></div>
 
         <img id="fotoIngrandita" src="" style="
@@ -239,11 +187,26 @@ const immagini = document.querySelectorAll(".galleria img");
                 const elenco = document.getElementById("personeFoto");
                 elenco.innerHTML = "";
 
-                dati.persone.forEach(function(persona) {
-                    const riga = document.createElement("div");
-                    riga.textContent = persona;
-                    elenco.appendChild(riga);
-                });
+for (let i = 0; i < dati.persone.length; i += 3) {
+
+    const riga = document.createElement("div");
+    riga.style.display = "flex";
+    riga.style.justifyContent = "center";
+    riga.style.gap = "30px";
+    riga.style.marginBottom = "8px";
+
+    for (let j = i; j < i + 3 && j < dati.persone.length; j++) {
+
+        const persona = document.createElement("span");
+        persona.textContent = dati.persone[j];
+        persona.style.minWidth = "180px";
+
+        riga.appendChild(persona);
+    }
+
+    elenco.appendChild(riga);
+}               
+
             }
 
             modal.style.display = "flex";
