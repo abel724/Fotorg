@@ -60,9 +60,23 @@
 <body>
 
 <h1>FOTORG</h1>
-
 <p>Archivio fotografico ORG</p>
-
+<div style="margin-bottom:40px;">
+    <input
+        type="text"
+        id="campoRicerca"
+        placeholder="Cerca per nome, evento o codice foto..."
+        style="
+            width:80%;
+            max-width:600px;
+            padding:12px;
+            font-size:18px;
+            border:1px solid #ccc;
+            border-radius:8px;
+            box-sizing:border-box;
+        "
+    >
+</div>
 <div class="galleria">
 
     <img src="FotoArchivio/F001.jpg" alt="Foto F001">
@@ -199,7 +213,7 @@
 
     </div>
 </div>
-   xxx
+
 <script src="dati.js"></script>
 <script> 
 const immagini = document.querySelectorAll(".galleria img");
@@ -247,7 +261,38 @@ const immagini = document.querySelectorAll(".galleria img");
     };
     
 </script>
+<script>
+const campoRicerca = document.getElementById("campoRicerca");
 
+campoRicerca.addEventListener("input", function() {
+
+    const testo = campoRicerca.value.toLowerCase().trim();
+
+    immagini.forEach(function(immagine) {
+
+        const codice = immagine.alt.replace("Foto ", "");
+        const dati = datiFoto[codice];
+
+        if (testo === "") {
+            immagine.style.display = "";
+            return;
+        }
+
+        let contenuto = codice.toLowerCase();
+
+        if (dati) {
+            contenuto += " " + dati.evento.toLowerCase();
+            contenuto += " " + dati.persone.join(" ").toLowerCase();
+        }
+
+        if (contenuto.includes(testo)) {
+            immagine.style.display = "";
+        } else {
+            immagine.style.display = "none";
+        }
+    });
+});
+</script>
 </body>
 </html>
     
