@@ -109,7 +109,7 @@ datiFoto["F012"] = {
         "Mimmo Pignatelli",
         "Stefano Bellucco",
         "Orazio Meo",
-        "Enzo e"Pippo Pasquino", "altri..."        
+        "Enzo Antonacci", "Pippo Pasquino", "altri..."        
     ]
 };
 datiFoto["F017"] = {
