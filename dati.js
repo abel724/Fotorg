@@ -37,7 +37,9 @@ datiFoto["F006"] = {
 };
 datiFoto["F007"] = {
     evento: "Centro meccanografico siderurgico",
-    persone: ["Peppe Perruccio", "A L T R I"]
+    persone: ["Peppe Perruccio", "Michele Birtolo", "Lorenzo Barulli",
+              "Raffaele Cocchiaro", "Giancarlo Maccagnani", "Franco Fuggiano",
+             ]
 };
 datiFoto["F008"] = {
     evento: "Cena per avviamento progetto",
@@ -55,10 +57,10 @@ datiFoto["F008"] = {
 };
 
 datiFoto["F009"] = {
-    evento: "Evento sconosciuto",
+    evento: "Centro meccanografico siderurgico",
     persone: [
-        "Enzo Picheca",
-        "Enzo De Leonardis",
+        "Enzo Picheca", "Franco Presicci", "Tonino Otranto",
+        "Enzo De Leonardis", 
         "Remo Epifani",
         "Donato Addabbo",
         "Giacinto Garofalo",
@@ -67,7 +69,7 @@ datiFoto["F009"] = {
         "Franco Perna",
         "Franco De Vitis",
         "Giacinto Dell'Erba",
-        "Donato Sofia", "A L T R I"
+        "Donato Sofia"
     ]
 };
 
@@ -87,6 +89,27 @@ datiFoto["F010"] = {
         "Giovanni Spagnuolo",
         "Raffaele Aceto",
         "Pippo Pasquino"
+    ]
+};
+
+datiFoto["F011"] = {
+    evento: "Squadra di calcio torneo interno ORG",
+    persone: [
+        "Giacinto Dell'Erba",
+        "Remo Epifani",
+        "Nicola Chisena",
+        "Donato Addabbo",
+        "Enzo De Leonardis"        
+    ]
+};
+datiFoto["F012"] = {
+    evento: "Squadra di calcio torneo interno ORG",
+    persone: [
+        "Giacinto Dell'Erba",
+        "Mimmo Pignatelli",
+        "Stefano Bellucco",
+        "Orazio Meo",
+        "Enzo e"Pippo Pasquino", "e altri"        
     ]
 };
 datiFoto["F017"] = {
