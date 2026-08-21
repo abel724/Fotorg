@@ -17,12 +17,28 @@ datiFoto["F002"] = {
     evento: "Centro meccanografico siderurgico",
     persone: ["Enzo Loperfido", "Raffaele Cocchiaro"]
 };
+datiFoto["F003"] = {
+    evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
+    persone: ["Antonio Giove", "Antonio Candelli"]
+};
+datiFoto["F004"] = {
+    evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
+    persone: ["Orazio Meo", "Antonio Candelli"]
+};
 
 datiFoto["F005"] = {
     evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
     persone: ["Rosa Lodeserto", "Vittorio Ritelli"]
 };
 
+datiFoto["F006"] = {
+    evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
+    persone: ["Vito Calella", "Piero Spedicati"]
+};
+datiFoto["F007"] = {
+    evento: "Centro meccanografico siderurgico",
+    persone: ["Peppe Perruccio", "A L T R I"]
+};
 datiFoto["F008"] = {
     evento: "Cena per avviamento progetto",
     persone: [
@@ -51,7 +67,7 @@ datiFoto["F009"] = {
         "Franco Perna",
         "Franco De Vitis",
         "Giacinto Dell'Erba",
-        "Donato Sofia"
+        "Donato Sofia", "A L T R I"
     ]
 };
 
