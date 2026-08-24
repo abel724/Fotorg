@@ -99,9 +99,11 @@ datiFoto["F011"] = {
         "Remo Epifani",
         "Nicola Chisena",
         "Donato Addabbo",
+        "Ciccio Lusso",
         "Enzo De Leonardis"        
     ]
 };
+
 datiFoto["F012"] = {
     evento: "Squadra di calcio torneo interno ORG",
     persone: [
@@ -112,6 +114,35 @@ datiFoto["F012"] = {
         "Enzo Antonacci", "Pippo Pasquino", "altri..."        
     ]
 };
+
+datiFoto["F013"] = {
+    evento: "Centro meccanografico siderurgico",
+    persone: ["Enzo Innato"]
+ 
+};
+
+datiFoto["F014"] = {
+    evento: "Centro meccanografico siderurgico",
+    persone: ["Enzo Innato", "Giovanni Sonnante"]
+ 
+};
+
+datiFoto["F015"] = {
+    evento: "Centro meccanografico siderurgico",
+    persone: ["Vito Calella", "e altri"]
+ 
+};
+
+datiFoto["F016"] = {
+    evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
+    persone: [
+        "Piero Nasole",
+        "Pippo Pasquino",
+        "Renato Ingenito",
+        "Enzo Antonacci"
+    ]
+};
+
 datiFoto["F017"] = {
     evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
     persone: [
@@ -139,7 +170,10 @@ evento:  "1° Raduno ORGonauti presso Auchan del 18/12/2024",
 
 datiFoto["F020"] = {
     evento: "Centro meccanografico siderurgico",
-    persone: ["Cesarino Gervasi", "Gianni Fusco"]
+    persone: ["Cesarino Gervasi", "Gianni Fusco",
+              "Antonio De Pascale", "Alfonso Nitto", 
+              "Franco Di Maggio", "Vittorio Ritelli"
+]
  
 };
 
