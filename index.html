@@ -165,15 +165,37 @@ for (let i = 1; i <= 75 ; i++) {
 <script src="dati.js"></script>
 <script> 
 const immagini = document.querySelectorAll(".galleria img");
+    let indiceFoto = 0;
+    let toccoInizioX = 0;
+    let toccoFineX = 0;
     const modal = document.getElementById("modal");
+     
     const fotoIngrandita = document.getElementById("fotoIngrandita");
-    const chiudi = document.getElementById("chiudi");
+   
+    fotoIngrandita.addEventListener("touchstart", function(event) {
+    toccoInizioX = event.touches[0].clientX;
+});
 
+fotoIngrandita.addEventListener("touchend", function(event) {
+    toccoFineX = event.changedTouches[0].clientX;
+
+if (toccoFineX < toccoInizioX - 50) {
+    // Movimento verso sinistra = foto precedente
+    mostraFoto(indiceFoto - 1);
+}
+
+if (toccoFineX > toccoInizioX + 50) {
+    // Movimento verso destra = foto successiva
+    mostraFoto(indiceFoto + 1);
+}
+   
+});  
+    const chiudi = document.getElementById("chiudi");   
     immagini.forEach(function(immagine) {
         immagine.onclick = function() {
-
+        indiceFoto = Array.from(immagini).indexOf(immagine);   
             const nomeFoto = immagine.alt.replace("Foto ", "");
-
+         
             fotoIngrandita.src = immagine.src;
 
             document.getElementById("nomeFoto").textContent = nomeFoto;
@@ -217,6 +239,65 @@ for (let i = 0; i < dati.persone.length; i += 3) {
         modal.style.display = "none";
     };
 
+function mostraFoto(indice) {
+
+    if (indice < 0 || indice >= immagini.length) {
+        return;
+    }
+
+    indiceFoto = indice;
+
+    const immagine = immagini[indice];
+    const nomeFoto = immagine.alt.replace("Foto ", "");
+
+    fotoIngrandita.src = immagine.src;
+
+    document.getElementById("nomeFoto").textContent = nomeFoto;
+
+    const dati = datiFoto[nomeFoto];
+
+    if (dati) {
+        document.getElementById("eventoFoto").textContent = dati.evento;
+
+        const elenco = document.getElementById("personeFoto");
+        elenco.innerHTML = "";
+
+        for (let i = 0; i < dati.persone.length; i += 3) {
+
+            const riga = document.createElement("div");
+            riga.style.display = "flex";
+            riga.style.justifyContent = "center";
+            riga.style.gap = "30px";
+            riga.style.marginBottom = "8px";
+
+            for (let j = i; j < i + 3 && j < dati.persone.length; j++) {
+
+                const persona = document.createElement("span");
+                persona.textContent = dati.persone[j];
+                persona.style.minWidth = "180px";
+
+                riga.appendChild(persona);
+            }
+
+            elenco.appendChild(riga);
+        }
+    }
+}
+
+document.addEventListener("keydown", function(event) {
+
+    if (modal.style.display !== "flex") {
+        return;
+    }
+
+    if (event.key === "ArrowRight") {
+        mostraFoto(indiceFoto + 1);
+    }
+
+    if (event.key === "ArrowLeft") {
+        mostraFoto(indiceFoto - 1);
+    }
+});
     modal.onclick = function(event) {
         if (event.target === modal) {
             modal.style.display = "none";
@@ -259,14 +340,3 @@ campoRicerca.addEventListener("input", function() {
 </body>
 </html>
     
-
-
-
-
-
-
-
-
-
-
-
