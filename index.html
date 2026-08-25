@@ -181,12 +181,12 @@ fotoIngrandita.addEventListener("touchend", function(event) {
 
 if (toccoFineX < toccoInizioX - 50) {
     // Movimento verso sinistra = foto precedente
-    mostraFoto(indiceFoto - 1);
+    mostraFoto(indiceFoto + 1);
 }
 
 if (toccoFineX > toccoInizioX + 50) {
     // Movimento verso destra = foto successiva
-    mostraFoto(indiceFoto + 1);
+    mostraFoto(indiceFoto - 1);
 }
    
 });  
