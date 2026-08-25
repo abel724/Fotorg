@@ -8,6 +8,7 @@ for (let i = 1; i <= 200; i++) {
         persone: []
     };
 }
+
 datiFoto["F001"] = {
     evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
     persone: ["Enzo Antonacci", "Mariella Tangorra"]
@@ -17,10 +18,12 @@ datiFoto["F002"] = {
     evento: "Centro meccanografico siderurgico",
     persone: ["Enzo Loperfido", "Raffaele Cocchiaro"]
 };
+
 datiFoto["F003"] = {
     evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
     persone: ["Antonio Giove", "Antonio Candelli"]
 };
+
 datiFoto["F004"] = {
     evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
     persone: ["Orazio Meo", "Antonio Candelli"]
@@ -129,7 +132,10 @@ datiFoto["F014"] = {
 
 datiFoto["F015"] = {
     evento: "Centro meccanografico siderurgico",
-    persone: ["Vito Calella", "e altri"]
+    
+    persone: ["Vito Calella", "Stefano Bellucco", "Nando Carfora",
+            "Ciccio Pignatelli", "Massimo Fornaro", "Emanuele Galasso",         
+             "Angelo Rusciano"]
  
 };
 
@@ -172,23 +178,38 @@ datiFoto["F020"] = {
     evento: "Centro meccanografico siderurgico",
     persone: ["Cesarino Gervasi", "Gianni Fusco",
               "Antonio De Pascale", "Alfonso Nitto", 
-              "Franco Di Maggio", "Vittorio Ritelli"
-]
- 
+              "Franco Di Maggio", "Vittorio Ritelli"] 
+};
+
+datiFoto["F021"] = {
+    evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
+    persone: ["Orazio Meo", "Enzo Antonacci", "Mario Stranieri",
+            "Mimmo Pignatelli", "Vito Calella", "Maurizio Sarti", "Mimmo Ferrucci"] 
+};
+
+datiFoto["F022"] = {   
+    evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
+    persone: ["Piero Spedicati", "Vito Calella", 
+            "Mimmo Pignatelli", "Lino Battista", "Mimmo Ferrucci",
+             "Mario Stranieri"]
+};
+
+datiFoto["F023"] = {
+    evento:  "Brindisi per avviamento progetto",
+    persone: ["Ciccio Caroli", "Peppe Margarita", "Nicola Chisena",
+             "Donato Sofia", "Gigi Presta", "Cesarino Gervasi", "Carmine Mariella"]
 };
 
 datiFoto["F024"] = {
 evento: "In attesa di ...",
 persone: [
-          "Arturo Imperio" 
-]
+          "Arturo Imperio"]
 };
    
 datiFoto["F025"] = {
 evento: "1° Raduno ORGonauti presso Auchan del 18/12/2024",
 persone: [
-          "Mario Stranieri", "Antonio Giove"
-]
+          "Mario Stranieri", "Antonio Giove"]
 };
 
 datiFoto["F026"] = {
@@ -201,9 +222,9 @@ persone: [
 datiFoto["F027"] = {
 evento: "Matrimonio di Arturo Imperio",
 persone: [
-"Cecchino Sossi", "Tonino Blasi", "Bruno Di  Castri", 
-"Michele Adamo", "Ciccio Gentile", "Arturo Imperio", 
-"Manlio Lomartire"
+          "Cecchino Sossi", "Tonino Blasi", "Bruno Di  Castri", 
+          "Michele Adamo", "Ciccio Gentile", "Arturo Imperio", 
+          "Manlio Lomartire"
 ]
 };
    
@@ -230,4 +251,40 @@ persone: [
 "Dino Tucci", "Claudio De Felice"
 ]
 };
+datiFoto["F031"] = {
+    evento: "Discorso Sommelier AIS Taranto",
+    persone: ["Domenico Stanzione"]
+};
 
+datiFoto["F032"] = {
+    evento: "Controllo Avviamento progetto",
+    persone: ["Peppe Perruccio", 
+              "Remo Epifani", "Ciccio Pignatelli", "Gigi Presta"],
+};
+
+datiFoto["F033"] = {
+    evento: "Centro meccanografico siderurgico",
+
+    persone: ["Enzo Loperfido", "Franco Fuggiano", "??"]
+};
+
+datiFoto["F034"] = {
+    evento: "Squadra di calcio torneo Interno ORG",
+    persone: ["Arturo Imperio", "Ciccio Lusso", "?", "?", "?", 
+              "Franco Perna", "Pietro Primiceri", 
+              "Vito Calamita", "Franco Presicci", "Mario Sarra", "e Altri"]
+};
+
+datiFoto["F035"] = {
+    evento: "Salone nuova DIS",
+    persone: ["Antonio Giove", "Pasquale Ferrara", "Nando Carfora",
+              "Carmine Mariella"]
+};
+
+datiFoto["F036"] = {
+    evento: "Ufficio nuova DIS",
+    persone: ["Angelo Prete", "Ciccio Lomartire", "Antonio Violino",
+              "Vito Calamita", "Peppe Rametta", "Luigi Presta",
+              "Stefano Bellucco", "Ciccio Pignatelli", "Gino Palomba",
+              "Nicola Chisena"]
+};
