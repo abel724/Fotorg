@@ -319,6 +319,79 @@ datiFoto["F041"] = {
 
 datiFoto["F042"] = {
     evento: "1° Raduno ORGonauti Presso Auchan del 18/12/2024",
-    persone: ["Enzo De Leonardis", "Dino Rondinelli", "Anna Cavallo",
+    persone: ["Enfico zo De Leonardis", "Dino Rondinelli", "Anna Cavallo",
               "Matteo Mucci"]                            
+};
+
+datiFoto["F043"] = {
+    evento: "Centro meccanografico",
+    persone: ["Mimmo Pignatelli", "Pino Dalema"]                            
+};
+
+datiFoto["F044"] = {
+    evento: "1° Raduno ORGonauti Presso Auchan del 18/12/2024",
+    persone: ["Orazio Meo"]                            
+};
+
+datiFoto["F045"] = {
+    evento: "1° Raduno ORGonauti Presso Auchan del 18/12/2024",
+    persone: ["Pippo Pasquino"]                            
+};
+
+datiFoto["F046"] = { 
+    evento: "Evento sconosciuto",
+    persone: ["Sconosciuti", "Chi ha postato la foto su WhatsApp?"]                            
+};
+
+datiFoto["F047"] = {
+    evento: "1° Raduno ORGonauti Presso Auchan del 18/12/2024",
+    persone: ["Elio Ferrari", "Matteo Mucci", "Franco Di Maggio"]                            
+};
+
+datiFoto["F048"] = {
+    evento: "1° Raduno ORGonauti Presso Auchan del 18/12/2024",
+    persone: ["Orazio Meo", "Andrea Andolfatto", "Enzo De Leonardis"]                            
+};
+
+datiFoto["F049"] = {
+    evento: "1° Raduno ORGonauti Presso Auchan del 18/12/2024",
+    persone: ["Rosa Lodeserto", "Mariapia De Marzo", "Vittorio Ritelli"]                            
+};
+
+datiFoto["F050"] = {
+    evento: "1° Raduno ORGonauti Presso Auchan del 18/12/2024",
+    persone: ["Pippo Pasquino", "Renato Ingenito", "Mimmo Pignatelli"]                            
+};
+
+datiFoto["F051"] = {
+    evento: "1° Raduno ORGonauti Presso Auchan del 18/12/2024",
+    persone: ["Renato Ingenito", "Mimmo Pignatelli", "Lino Battista"]                            
+};
+
+datiFoto["F052"] = {
+    evento: "1° Raduno ORGonauti Presso Auchan del 18/12/2024",
+    persone: ["Alberto Belforte", "Orazio Meo", "Claudio De Felice"]                            
+};
+
+datiFoto["F053"] = {
+    evento: "Gli anni verdi",
+    persone: ["Franco Di Maggio"]                            
+};
+
+datiFoto["F054"] = {
+    evento: "Centro meccanografico",
+    persone: ["Cesarino Gervasi"]                            
+};
+
+datiFoto["F055"] = {
+    evento: "Salone nuova DIS",
+    persone: ["Ciccio Lusso", "Alberto Valente", "Donato Sofia", "??",
+              "Franco Presicci", "??", "Enzo De Leonardis", "Mario De Mitri",
+              "Luciano Cambara", "Rosa Lodeserto"]
+};
+
+datiFoto["F056"] = {
+    evento: "Ufficio nuova DIS",
+    persone: ["Alberto Belforte", "Peppino Telegrafo", "Mauro Patacconi",
+              "Antonio Ettorre", "Carmelo Cacace"]
 };
