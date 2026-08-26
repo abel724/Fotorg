@@ -288,3 +288,37 @@ datiFoto["F036"] = {
               "Stefano Bellucco", "Ciccio Pignatelli", "Gino Palomba",
               "Nicola Chisena"]
 };
+
+datiFoto["F037"] = {
+    evento: "Ufficio nuova DIS",
+    persone: ["Enzo De Leonardis", "Enzo Innato", "Cesarino Gervasi",
+              "Franco De Vitis", "Piero Spedicati"]              
+};
+
+datiFoto["F038"] = {
+    evento: "Squadra di calcio torneo Interno ORG",
+    persone: ["Franco Perna", "Pino Calamita", "Raffaele Aceto", "Piero Spedicati"]
+                            
+};
+
+datiFoto["F039"] = {
+    evento: "Squadra di calcio torneo Interno ORG",
+ persone: ["Maurizio Sarti", "Dino Rondinelli", "Enzo De Leonardis", "Claudio Virtù"]
+                            
+};
+
+datiFoto["F040"] = {
+    evento: "1° Raduno ORGonauti Presso Auchan del 18/12/2024",
+    persone: ["Enzo De Leonardis", "Orazio Meo"]                            
+};
+
+datiFoto["F041"] = {
+    evento: "1° Raduno ORGonauti Presso Auchan del 18/12/2024",
+    persone: ["Lino Battista", "Antonio Candelli", "Piero Spedicati"]                            
+};
+
+datiFoto["F042"] = {
+    evento: "1° Raduno ORGonauti Presso Auchan del 18/12/2024",
+    persone: ["Enzo De Leonardis", "Dino Rondinelli", "Anna Cavallo",
+              "Matteo Mucci"]                            
+};
