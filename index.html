@@ -166,7 +166,8 @@ for (let i = 1; i <= 75 ; i++) {
 
 <script src="dati.js"></script>
 <script> 
-const immagini = document.querySelectorAll(".galleria img");
+const immagini = Array.from(document.querySelectorAll(".galleria img"));
+let fotoNavigazione = immagini;
     let indiceFoto = 0;
     let toccoInizioX = 0;
     let toccoFineX = 0;
@@ -195,7 +196,8 @@ if (toccoFineX > toccoInizioX + 50) {
     const chiudi = document.getElementById("chiudi");   
     immagini.forEach(function(immagine) {
         immagine.onclick = function() {
-        indiceFoto = Array.from(immagini).indexOf(immagine);   
+       
+        indiceFoto = fotoNavigazione.indexOf(immagine);   
             const nomeFoto = immagine.alt.replace("Foto ", "");
          
             fotoIngrandita.src = immagine.src;
@@ -242,15 +244,15 @@ for (let i = 0; i < dati.persone.length; i += 3) {
     };
 
 function mostraFoto(indice) {
+ 
+if (indice < 0 || indice >= fotoNavigazione.length) {
+    return;
+}
+indiceFoto = indice;
 
-    if (indice < 0 || indice >= immagini.length) {
-        return;
-    }
+const immagine = fotoNavigazione[indice];    
 
-    indiceFoto = indice;
-
-    const immagine = immagini[indice];
-    const nomeFoto = immagine.alt.replace("Foto ", "");
+const nomeFoto = immagine.alt.replace("Foto ", "");
 
     fotoIngrandita.src = immagine.src;
 
@@ -307,12 +309,15 @@ document.addEventListener("keydown", function(event) {
     };
     
 </script>
+
 <script>
 const campoRicerca = document.getElementById("campoRicerca");
 
 campoRicerca.addEventListener("input", function() {
 
     const testo = campoRicerca.value.toLowerCase().trim();
+
+    fotoNavigazione = [];
 
     immagini.forEach(function(immagine) {
 
@@ -321,6 +326,7 @@ campoRicerca.addEventListener("input", function() {
 
         if (testo === "") {
             immagine.style.display = "";
+            fotoNavigazione.push(immagine);
             return;
         }
 
@@ -333,12 +339,15 @@ campoRicerca.addEventListener("input", function() {
 
         if (contenuto.includes(testo)) {
             immagine.style.display = "";
+            fotoNavigazione.push(immagine);
         } else {
             immagine.style.display = "none";
         }
     });
 });
 </script>
+
+
 </body>
 </html>
     
