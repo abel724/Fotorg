@@ -395,3 +395,85 @@ datiFoto["F056"] = {
     persone: ["Alberto Belforte", "Peppino Telegrafo", "Mauro Patacconi",
               "Antonio Ettorre", "Carmelo Cacace"]
 };
+
+datiFoto["F057"] = {
+    evento: "Sconosciuto",
+    persone: ["Enzo De Leonardis", "Enzo Antonacci",
+              "??", "??"]
+};
+
+datiFoto["F058"] = {
+    evento: "Incontro a pranzo al ristorante la Paranza del 17/12/2025",
+    persone: ["Nicola Mastrorocco", "Michele Adamo", "Rocco De Luca"
+              ]
+};
+
+datiFoto["F059"] = {
+    evento: "Incontro a pranzo al ristorante la Paranza del 17/12/2025",
+    persone: ["Nicola Mastrorocco", "Michele Adamo", "Rocco De Luca"
+              ]
+};
+
+datiFoto["F060"] = {
+    evento: "Incontro a pranzo al ristorante la Paranza del 17/12/2025",
+    persone: ["Nicola Mastrorocco", "Michele Adamo", "Rocco De Luca"
+              ]
+};
+
+datiFoto["F061"] = {
+    evento: "Incontro a pranzo al ristorante la Paranza del 17/12/2025",
+    persone: ["Nicola Mastrorocco", "Michele Adamo", "Rocco De Luca"
+              ]
+};
+
+datiFoto["F062"] = {
+    evento: "3° Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
+    persone: ["Piero Spedicati", "Mimmo Pignatelli", "Renzo Dolfini",
+              "Emmanuele Latanza", "Sig.ra Latanza", "Remo Epifani", "Tonia Epifani",
+              "Rosa Lodeserto", "Franco Malknect", "Nicola Baldi", "Enzo Antonacci",
+      "Vittorio Ritelli", "Mariapia De Marzo", "Mariella Tangorra", "Pippo Pasquino",
+      "Orazio Eramo", "Rizzo G,", "Rizzo F.", "Egidio Burreddu", "Claudio Virtù",
+      "Vito Calamita", "Angelo Nardelli"]
+};
+
+datiFoto["F063"] = {
+    evento: "3° Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
+    persone: ["Renzo Dolfini",
+              "Emmanuele Latanza", "Sig.ra Latanza", "Tonia Epifani",
+              "Rosa Lodeserto", "Franco Malknect", "Nicola Baldi", "Enzo Antonacci",
+      "Vittorio Ritelli", "Mariapia De Marzo", "Mariella Tangorra", "Pippo Pasquino",
+      "Rizzo G,", "Rizzo F.", "Egidio Burreddu", "Claudio Virtù",
+      "Vito Calamita", "Angelo Nardelli"]
+};
+
+datiFoto["F064"] = {
+    evento: "Da solo",
+    persone: ["Remo Epifani"]                            
+};
+
+datiFoto["F065"] = {
+    evento: "3° Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
+    persone: ["Andrea Andolfatto", "Renzo Dolfini", "Renato Ingenito", 
+       "Emmanuele Latanza", "Sig.ra Latanza", "Tonia Epifani", "Remo Epifani",
+              "Vittorio Ritelli", "Michele Adamo", "Egidio Burreddu",        
+              "Rizzo G,", "Rizzo F.", "Enzo Loperfido", "Nicola Baldi"
+      ]
+};
+
+datiFoto["F066"] = {
+    evento: "3° Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
+    persone: ["Renzo Dolfini", "Renato Ingenito", 
+              "Remo Epifani",
+              "Vittorio Ritelli", "Michele Adamo"       
+              
+      ]
+};
+
+datiFoto["F067"] = {
+    evento: "3° Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
+    persone: ["Renzo Dolfini", "Renato Ingenito", 
+              "Remo Epifani",
+              "Vittorio Ritelli", "Michele Adamo"       
+              
+      ]
+};
