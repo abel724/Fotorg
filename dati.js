@@ -530,5 +530,5 @@ datiFoto["F075"] = {
  evento: "Centro meccanografico",
  persone: [
        "??", "Peppe Perruccio", "Cesarino Gervasi",  
-       "Peppe Perruccio"]
+       "Peppe Perruccio", "Tonino Chimenti", "Enzo Innato"]
 };
