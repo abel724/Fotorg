@@ -502,8 +502,14 @@ datiFoto["F071"] = {
 evento: "4° Raduno ORGonauti Presso ristorante daMe' del 2/7/2026",
 persone: [
        "Francesca Baldi", "Tonia Epifani", "Sig.ra Imperio", "Rosa Lodeserto", 
-       "Sig.ra Loperfido"
-]
+       "Sig.ra Loperfido"]
+};
+
+datiFoto["F072"] = {
+evento: "Centro meccanografico",
+persone: [
+       "Mario De Mitri", "Enzo Innato", "Paolo Pascale", "Franco Marzo", 
+       " e altri"]
 };
 
  
