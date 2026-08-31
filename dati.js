@@ -470,10 +470,40 @@ datiFoto["F066"] = {
 };
 
 datiFoto["F067"] = {
-    evento: "3° Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
-    persone: ["Renzo Dolfini", "Renato Ingenito", 
-              "Remo Epifani",
-              "Vittorio Ritelli", "Michele Adamo"       
-              
-      ]
+    evento: "4° Raduno ORGonauti Presso ristorante daMe' del 2/7/2026",
+    persone: ["Arturo Imperio", "Franco MalKnecht", "Nicola Baldi", "Andrea Andolfatto",     
+              "Francesco Rizzo", "Renzo Dolfini", "Remo Epifani", "Giuseppe Rizzo",
+              "Michele Adamo", "Renato Ingenito", "Enzo Loperfido", "Egidio Burreddu"]
 };
+
+datiFoto["F068"] = {
+evento: "4° Raduno ORGonauti Presso ristorante daMe' del 2/7/2026",
+persone: ["Rosa Lodeserto","Sig.ra Loperfido", "Franco MalKnecht", "Nicola Baldi",
+          "Andrea Andolfatto", "Francesco Rizzo", "Renzo Dolfini", "Remo Epifani", 
+          "Michele Adamo", "Giuseppe Rizzo", "Renato Ingenito",
+          "Enzo Loperfido", "Egidio BUrreddu", "Francesca Baldi"
+]
+};
+
+datiFoto["F069"] = {
+evento: "evento non noto",
+persone: [
+  "Antonio Giove", "Piero Spedicati", "Remo Epifani", "Franco Di Maggio"] 
+};
+
+datiFoto["F070"] = {
+evento: "4° Raduno ORGonauti Presso ristorante daMe' del 2/7/2026",
+persone: ["Arturo Imperio", "Franco MalKnecht", "Nicola Baldi",
+          "Andrea Andolfatto", "Francesco Rizzo", "Renzo Dolfini", "Remo Epifani",
+          "Giuseppe Rizzo", "Enzo Loperfido", "Egidio Burreddu"]
+};
+
+datiFoto["F071"] = {
+evento: "4° Raduno ORGonauti Presso ristorante daMe' del 2/7/2026",
+persone: [
+       "Francesca Baldi", "Tonia Epifani", "Sig.ra Imperio", "Rosa Lodeserto", 
+       "Sig.ra Loperfido"
+]
+};
+
+ 
