@@ -512,4 +512,23 @@ persone: [
        " e altri"]
 };
 
- 
+datiFoto["F073"] = {
+ evento: "Centro meccanografico",
+ persone: [
+       "Benedetto Pignatelli", "Giovanni Sonnante", "Enzo innato",  
+       "Peppe Perruccio", "Cesarino Gervasi"]
+};
+
+datiFoto["F074"] = {
+ evento: "Centro meccanografico",
+ persone: [
+       "Enzo Innato", "Peppe Perruccio", "Leo Torchetti",  
+       "Peppino Conte"]
+};
+
+datiFoto["F075"] = {
+ evento: "Centro meccanografico",
+ persone: [
+       "??", "Peppe Perruccio", "Cesarino Gervasi",  
+       "Peppe Perruccio"]
+};
