@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>FOTORG</title>
-
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#f5f5f5">
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -150,16 +151,33 @@ for (let i = 1; i <= 75 ; i++) {
             border-radius:8px;
         ">
 
-        <div id="eventoFoto" style="
-            font-size:18px;
-            margin-top:15px;
-            margin-bottom:20px;
-        "></div>
+<div id="eventoFoto" style="
+    font-size:18px;
+    margin-top:15px;
+    margin-bottom:20px;
+"></div>
+<div id="personeFoto" style="
+    font-size:17px;
+    line-height:1.6;
+"></div>
+<div id="areaAdmin" style="
+    display:none;
+    margin-top:25px;
+    color:white;
+">
 
-        <div id="personeFoto" style="
-            font-size:17px;
-            line-height:1.6;
-        "></div>
+    <div style="margin-bottom:12px;">
+        <label>Evento:</label><br>
+        <input id="eventoModifica" type="text"
+            style="width:90%; max-width:700px; font-size:17px; padding:8px;">
+    </div>
+<button id="salvaDati" style="
+        font-size:17px;
+        padding:8px 20px;
+        cursor:pointer;
+    ">Salva</button>
+
+</div>
 
     </div>
 </div>
@@ -347,7 +365,11 @@ campoRicerca.addEventListener("input", function() {
 });
 </script>
 
-
+<script>
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("service-worker.js");
+}
+</script>
 </body>
 </html>
     
