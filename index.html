@@ -408,6 +408,19 @@ function gestioneAccessoGoogle(response) {
 
 }
 </script>
+<script>
+document.getElementById("accessoAdmin").onclick = function() {
+
+    google.accounts.id.initialize({
+        client_id: "690178122521-rc46d9p1nmskqji86u2j6ett4u7kqjeg.apps.googleusercontent.com",
+        callback: function(response) {
+            alert("Google ha riconosciuto l'account.");
+        }
+    });
+
+    google.accounts.id.prompt();
+};
+</script>
 </body>
 </html>
 ```
