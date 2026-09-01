@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<link rel="icon" type="image/png" href="iconaFotorg.png">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>FOTORG</title>
-<link rel="manifest" href="manifest.json">
-<meta name="theme-color" content="#f5f5f5">
+
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -46,6 +44,7 @@
     .galleria img:hover {
         transform: scale(1.03);
     }
+
 @media (max-width: 600px) {
     .galleria {
         grid-template-columns: repeat(3, 1fr);
@@ -61,8 +60,25 @@
 
 <body>
 
-<h1>FOTORG</h1>
+<h1 style="position:relative;">
+    FOTORG
+
+<span id="accessoAdmin" style="
+    position:absolute;
+    left:calc(50% + 120px);
+    top:50%;
+    transform:translateY(-50%);
+    width:20px;
+    height:20px;
+    background:red;
+    border-radius:50%;
+    cursor:pointer;
+"></span>    
+
+</h1>
+
 <p>Archivio fotografico ORG</p>
+
 <div style="margin-bottom:60px;">
     <input
         type="text"
@@ -105,6 +121,7 @@ for (let i = 1; i <= 75 ; i++) {
 }
 </script>    
 </div>    
+
 <div id="modal" style="
     display:none;
     position:fixed;
@@ -157,10 +174,12 @@ for (let i = 1; i <= 75 ; i++) {
     margin-top:15px;
     margin-bottom:20px;
 "></div>
+
 <div id="personeFoto" style="
     font-size:17px;
     line-height:1.6;
 "></div>
+
 <div id="areaAdmin" style="
     display:none;
     margin-top:25px;
@@ -172,7 +191,8 @@ for (let i = 1; i <= 75 ; i++) {
         <input id="eventoModifica" type="text"
             style="width:90%; max-width:700px; font-size:17px; padding:8px;">
     </div>
-<button id="salvaDati" style="
+
+    <button id="salvaDati" style="
         font-size:17px;
         padding:8px 20px;
         cursor:pointer;
@@ -183,95 +203,98 @@ for (let i = 1; i <= 75 ; i++) {
     </div>
 </div>
 
+<script src="https://accounts.google.com/gsi/client" async defer></script>
 <script src="dati.js"></script>
+
 <script> 
 const immagini = Array.from(document.querySelectorAll(".galleria img"));
 let fotoNavigazione = immagini;
-    let indiceFoto = 0;
-    let toccoInizioX = 0;
-    let toccoFineX = 0;
-    const modal = document.getElementById("modal");
+let indiceFoto = 0;
+let toccoInizioX = 0;
+let toccoFineX = 0;
+const modal = document.getElementById("modal");
      
-    const fotoIngrandita = document.getElementById("fotoIngrandita");
+const fotoIngrandita = document.getElementById("fotoIngrandita");
    
-    fotoIngrandita.addEventListener("touchstart", function(event) {
+fotoIngrandita.addEventListener("touchstart", function(event) {
     toccoInizioX = event.touches[0].clientX;
 });
 
 fotoIngrandita.addEventListener("touchend", function(event) {
     toccoFineX = event.changedTouches[0].clientX;
 
-if (toccoFineX < toccoInizioX - 50) {
-    // Movimento verso sinistra = foto precedente
-    mostraFoto(indiceFoto + 1);
-}
-
-if (toccoFineX > toccoInizioX + 50) {
-    // Movimento verso destra = foto successiva
-    mostraFoto(indiceFoto - 1);
-}
-   
-});  
-    const chiudi = document.getElementById("chiudi");   
-    immagini.forEach(function(immagine) {
-        immagine.onclick = function() {
-       
-        indiceFoto = fotoNavigazione.indexOf(immagine);   
-            const nomeFoto = immagine.alt.replace("Foto ", "");
-         
-            fotoIngrandita.src = immagine.src;
-
-            document.getElementById("nomeFoto").textContent = nomeFoto;
-
-            const dati = datiFoto[nomeFoto];
-
-            if (dati) {
-                document.getElementById("eventoFoto").textContent =
-                    dati.evento;
-
-                const elenco = document.getElementById("personeFoto");
-                elenco.innerHTML = "";
-
-for (let i = 0; i < dati.persone.length; i += 3) {
-
-    const riga = document.createElement("div");
-    riga.style.display = "flex";
-    riga.style.justifyContent = "center";
-    riga.style.gap = "30px";
-    riga.style.marginBottom = "8px";
-
-    for (let j = i; j < i + 3 && j < dati.persone.length; j++) {
-
-        const persona = document.createElement("span");
-        persona.textContent = dati.persone[j];
-        persona.style.minWidth = "180px";
-
-        riga.appendChild(persona);
+    if (toccoFineX < toccoInizioX - 50) {
+        // Movimento verso sinistra = foto successiva
+        mostraFoto(indiceFoto + 1);
     }
 
-    elenco.appendChild(riga);
-}               
+    if (toccoFineX > toccoInizioX + 50) {
+        // Movimento verso destra = foto precedente
+        mostraFoto(indiceFoto - 1);
+    }
+});  
 
-            }
+const chiudi = document.getElementById("chiudi");   
 
-            modal.style.display = "flex";
-        };
-    });
+immagini.forEach(function(immagine) {
+    immagine.onclick = function() {
+       
+        indiceFoto = fotoNavigazione.indexOf(immagine);   
+        const nomeFoto = immagine.alt.replace("Foto ", "");
+         
+        fotoIngrandita.src = immagine.src;
 
-    chiudi.onclick = function() {
-        modal.style.display = "none";
+        document.getElementById("nomeFoto").textContent = nomeFoto;
+
+        const dati = datiFoto[nomeFoto];
+
+        if (dati) {
+            document.getElementById("eventoFoto").textContent =
+                dati.evento;
+
+            const elenco = document.getElementById("personeFoto");
+            elenco.innerHTML = "";
+
+            for (let i = 0; i < dati.persone.length; i += 3) {
+
+                const riga = document.createElement("div");
+                riga.style.display = "flex";
+                riga.style.justifyContent = "center";
+                riga.style.gap = "30px";
+                riga.style.marginBottom = "8px";
+
+                for (let j = i; j < i + 3 && j < dati.persone.length; j++) {
+
+                    const persona = document.createElement("span");
+                    persona.textContent = dati.persone[j];
+                    persona.style.minWidth = "180px";
+
+                    riga.appendChild(persona);
+                }
+
+                elenco.appendChild(riga);
+            }               
+        }
+
+        modal.style.display = "flex";
     };
+});
+
+chiudi.onclick = function() {
+    modal.style.display = "none";
+};
 
 function mostraFoto(indice) {
  
-if (indice < 0 || indice >= fotoNavigazione.length) {
-    return;
-}
-indiceFoto = indice;
+    if (indice < 0 || indice >= fotoNavigazione.length) {
+        return;
+    }
 
-const immagine = fotoNavigazione[indice];    
+    indiceFoto = indice;
 
-const nomeFoto = immagine.alt.replace("Foto ", "");
+    const immagine = fotoNavigazione[indice];    
+
+    const nomeFoto = immagine.alt.replace("Foto ", "");
 
     fotoIngrandita.src = immagine.src;
 
@@ -321,11 +344,12 @@ document.addEventListener("keydown", function(event) {
         mostraFoto(indiceFoto - 1);
     }
 });
-    modal.onclick = function(event) {
-        if (event.target === modal) {
-            modal.style.display = "none";
-        }
-    };
+
+modal.onclick = function(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+};
     
 </script>
 
@@ -365,12 +389,25 @@ campoRicerca.addEventListener("input", function() {
     });
 });
 </script>
-
 <script>
-if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("service-worker.js");
+const accessoAdmin = document.getElementById("accessoAdmin");
+
+accessoAdmin.addEventListener("click", function() {
+
+    google.accounts.id.initialize({
+        client_id: "690178122521-rc46d9p1nmskqji86u2j6ett4u7kqjeg.apps.googleusercontent.com",
+        callback: gestioneAccessoGoogle
+    });
+
+    google.accounts.id.prompt();
+
+});
+
+function gestioneAccessoGoogle(response) {
+ alert("Accesso Google effettuato");
+
 }
 </script>
 </body>
 </html>
-    
+```
