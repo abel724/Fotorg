@@ -176,7 +176,7 @@ evento:  "1° Raduno ORGonauti presso Auchan del 18/12/2024",
 
 datiFoto["F020"] = {
     evento: "Centro meccanografico siderurgico",
-    persone: ["Cesarino Gervasi", "Gianni Fusco",
+    persone: ["Cesarino Gervasi", "Nicola Mastrorocco",
               "Antonio De Pascale", "Alfonso Nitto", 
               "Franco Di Maggio", "Vittorio Ritelli"] 
 };
@@ -296,8 +296,9 @@ datiFoto["F037"] = {
 };
 
 datiFoto["F038"] = {
-    evento: "Squadra di calcio torneo Interno ORG",
-    persone: ["Franco Perna", "Pino Calamita", "Raffaele Aceto", "Piero Spedicati"]
+   evento: "Squadra di calcio torneo Interno ORG",
+   persone: ["Peppe Marangi", "Franco Perna", "Pino Calamita", "Raffaele Aceto", 
+              "Piero Spedicati"]
                             
 };
 
@@ -509,7 +510,7 @@ datiFoto["F072"] = {
 evento: "Centro meccanografico",
 persone: [
        "Mario De Mitri", "Enzo Innato", "Paolo Pascale", "Franco Marzo", 
-       " e altri"]
+       "Peppe Rametta", "Michele Calabrese", "Peppe Perruccio"]
 };
 
 datiFoto["F073"] = {
@@ -532,3 +533,57 @@ datiFoto["F075"] = {
        "??", "Peppe Perruccio", "Cesarino Gervasi",  
        "Peppe Perruccio", "Tonino Chimenti", "Enzo Innato"]
 };
+
+datiFoto["F076"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+  "Vittorio Ritelli", "Orazio Eramo"] 
+};
+
+datiFoto["F077"] = {
+evento: "Incontro a pranzo al ristorante la Paranza del 17/12/2025",
+persone: [
+  "Vittorio Ritelli", "Nicola Mastrorocco"] 
+};
+
+datiFoto["F078"] = {
+evento: "Incontro a pranzo al ristorante la Paranza del 17/12/2025",
+persone: [
+  "Nicola Mastrorocco", "Michele Adamo", "Renzo Dolfini", "Rocco De Luca"] 
+};
+
+datiFoto["F079"] = {
+evento: "Centro meccanografico",
+persone: [
+  "Franco Marzo", "Vittorio Ritelli", "e l'altro?"] 
+};
+
+datiFoto["F080"] = {
+persone: [
+  "Orazio Eramo", "Alberto Belforte", "Antonio Candelli", "Rocco De Luca",
+  "Michele Adamo", "Franco Di Maggio", "Vito Calella"] 
+};
+
+datiFoto["F081"] = {
+persone: [
+   "Giuseppe Rizzo", "Aldo Galasso", "Sebastiano Gonnella", "Raffaele Aceto", 
+   "Francesco Rizzo", "Renato Ingenito"] 
+};
+
+datiFoto["F082"] = {
+evento: "Incontro a pranzo al ristorante la Paranza del 17/12/2025",
+persone: [
+  "Antonio Carrino","Renzo Dolfini", "Remo Epifani", 
+  "Vittorio Ritelli", "Nicola Mastrorocco"] 
+};
+
+datiFoto["F083"] = {
+evento: "Incontro a pranzo al ristorante la Paranza del 17/12/2025",
+persone: [
+  "Alberto Belforte", "Vittorio Ritelli", "Nicola Mastrorocco",  
+  "Michele Adamo", "Rocco De Luca"] 
+};
+
+
+
+
