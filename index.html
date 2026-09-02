@@ -239,8 +239,12 @@ const chiudi = document.getElementById("chiudi");
 immagini.forEach(function(immagine) {
     immagine.onclick = function() {
        
-        indiceFoto = fotoNavigazione.indexOf(immagine);   
-        const nomeFoto = immagine.alt.replace("Foto ", "");
+fotoNavigazione = immagini.filter(function(img) {
+            return img.style.display !== "none";
+        });
+
+        indiceFoto = fotoNavigazione.indexOf(immagine);
+        const nomeFoto = immagine.alt.replace("Foto ", "");        
          
         fotoIngrandita.src = immagine.src;
 
