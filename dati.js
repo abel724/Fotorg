@@ -500,7 +500,7 @@ persone: ["Arturo Imperio", "Franco MalKnecht", "Nicola Baldi",
 };
 
 datiFoto["F071"] = {
-evento: "4° Raduno ORGonauti Presso ristorante daMe' del 2/7/2026",
+evento: "5° Raduno ORGonauti Presso ristorante daMe' del 2/7/2026",
 persone: [
        "Francesca Baldi", "Tonia Epifani", "Sig.ra Imperio", "Rosa Lodeserto", 
        "Sig.ra Loperfido"]
@@ -586,6 +586,42 @@ persone: [
   "Michele Adamo", "Rocco De Luca"] 
 };
 
+datiFoto["F084"] = {
+evento: "4° Raduno ORGonauti Presso ristorante daMe' del 14/5/2026",
+persone: ["Piero Spedicati", "Mimmo Pignatelli", "Renzo Dolfini",
+          "Tonia Epifani", "Rosa Lodeserto", "Rizzo F.", "Orazio Meo",
+          "Andrea Andolfatto", "Maria Pia De Marzo", "Franco Di Maggio",
+          "Pippo Pasquino", "Remo Epifani", "Antonio Giove"]  
+};
 
+datiFoto["F085"] = {
+evento: "Centro meccanografico - Sala perforazione di notte",
+persone: [
+        "Bruno Di Castri", "Ciccio Gentile"] 
+};
 
+datiFoto["F086"] = {
+evento: "Festeggiamenti Torneo di calcio Aziendale",
+persone: [
+  "Costantino", "Luciano Cambara", "Tonino Otranto", "Rosa Lodeserto",  
+  "Tonia Torelli", "Ciccio Lusso", "Fausta Marino"] 
+};
 
+datiFoto["F087"] = {
+evento: "4° Raduno ORGonauti Presso ristorante daMe' del 14/5/2026",
+persone: [
+  "Sebastiano Gonnella", "Piero Spedicati", "Mimmo Pignatelli"] 
+};
+
+datiFoto["F088"] = {
+evento: "Preparazione addobbo natalizio sala perforazione",
+persone: [
+       "Mariapia De Marzo", "Anna Leo", "Rina De Bartolomeo",   
+       "Elena Pulpito", "Anna Cavallo"] 
+};
+
+datiFoto["F089"] = {
+evento: "Sosta dopo passeggiata in 500",
+persone: [
+       "Anna Leo", "Elena Pulpito", "Anna Cavallo"]        
+};
