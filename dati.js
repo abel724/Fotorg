@@ -559,12 +559,14 @@ persone: [
 };
 
 datiFoto["F080"] = {
+evento: "3° Raduno ORGonauti presso Auchan del 03/12/2025",
 persone: [
   "Orazio Eramo", "Alberto Belforte", "Antonio Candelli", "Rocco De Luca",
-  "Michele Adamo", "Franco Di Maggio", "Vito Calella"] 
+  "Michele Adamo", "Franco Di Maggio", "Vito Calella", "Antonio Carrino"] 
 };
 
 datiFoto["F081"] = {
+evento: "3° Raduno ORGonauti presso Auchan del 03/12/2025",
 persone: [
    "Giuseppe Rizzo", "Aldo Galasso", "Sebastiano Gonnella", "Raffaele Aceto", 
    "Francesco Rizzo", "Renato Ingenito"] 
