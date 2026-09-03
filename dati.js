@@ -625,3 +625,14 @@ evento: "Sosta dopo passeggiata in 500",
 persone: [
        "Anna Leo", "Elena Pulpito", "Anna Cavallo"]        
 };
+
+datiFoto["F090"] = {
+evento: "3° Raduno ORGonauti presso Auchan del 03/12/2025",
+persone: [
+   "Peppe Marangi", "Orazio Eramo", "Francesco Rizzo","Andrea Andolfatto", 
+   "Maurizio Sarti", "Vito Calella", " Mimmo Pignatelli", "Aldo Galasso",  
+   "Franco Di Maggio", "Antonio Candelli", "Alberto Belforte", "Michele Adamo",
+   "Antonio Carrino", "Antonio Giove", "Raffaele Aceto", "Vittorio Ritelli", 
+   "Remo Epifani", "Rocco De Luca", "Renato Ingenito", "Renzo Dolfini",  
+   "Sebastiano Gonnella", "Rizzo Giuseppe"] 
+};
