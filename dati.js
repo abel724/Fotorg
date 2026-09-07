@@ -1,6 +1,6 @@
 const datiFoto = {};
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 150; i++) {
     const numero = String(i).padStart(3, "0");
 
     datiFoto["F" + numero] = {
@@ -641,4 +641,52 @@ persone: [
    "Antonio Carrino", "Antonio Giove", "Raffaele Aceto", "Vittorio Ritelli", 
    "Remo Epifani", "Rocco De Luca", "Renato Ingenito", "Renzo Dolfini",  
    "Sebastiano Gonnella", "Rizzo Giuseppe"] 
+};
+
+datiFoto["F091"] = {
+evento: "Pensionamento Cesarino Gervasi",
+persone: [
+       "???", "???", "Cesarino Gervasi", "Giovanni Sonnante"] 
+};
+
+datiFoto["F092"] = {
+evento: "Pensionamento Cesarino Gervasi",
+persone: [
+       "Luciano Cambara", "Cesarino Gervasi", "Donato Addabbo", "Vito Calella"] 
+};
+
+datiFoto["F093"] = {
+evento: "Corso IFAP a Roma",
+persone: [
+       "Martino Bonifacio", "Donato Addabbo", "Minei", "Orazio Eramo"] 
+};
+
+datiFoto["F094"] = {
+evento: "Pensione Ciccio Lusso e Remo Epifani Febbraio 1997",
+persone: [
+       "Raffaele Cocchiaro", "Enzo Loperfido", "Ciccio Lusso", "Anna Cavallo",       
+     "Vittorio Ritelli", "Nicola Mastrorocco", "Remo Epifani", "Carletto Striccoli",
+       "Enzo Innato", "Carmelo Cacace", "Franco Perna", "Lorenzo Barulli",
+       "Pippo Pasquino", "Enzo Antonacci", "Orazio Eramo", "Gino Palomba",
+       "Nicola Chisena", "Mimmo Ferrucci", "Peppe Axo", "..altri"] 
+};
+
+datiFoto["F095"] = {
+evento: "Pensione Ciccio Lusso e Remo Epifani Febbraio 1997",
+persone: [
+       "Luciano Cambara", "Vittorio Ritelli", "Ciccio Lusso", "Remo Epifani",
+       "Lorenzo Barulli", "Nicola Mastrorocco"] 
+};
+
+datiFoto["F096"] = {
+evento: "Pensione Orazio Eramo",
+persone: [
+       "Fabrizio Mineo", "Enzo De Leonardis", "Donato Addabbo", "Orazio Eramo",
+       "Mimmo Nigro", "Carmelo Cacace", "Mario Stranieri", "Carletto Striccoli"] 
+};
+
+datiFoto["F097"] = {
+evento: "Pensione Cambara?",
+persone: [
+       "Pippo Pasquino", "???", "???", "Luciano Cambara"] 
 };
