@@ -688,5 +688,42 @@ persone: [
 datiFoto["F097"] = {
 evento: "Pensione Cambara?",
 persone: [
-       "Pippo Pasquino", "???", "???", "Luciano Cambara"] 
+       "Pippo Pasquino", "Andrea Illiopulos", "Costantino", "Luciano Cambara"] 
 };
+
+datiFoto["F098"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+       "Piero Spedicati", "???", "Alberto Belforte"] 
+};
+
+datiFoto["F099"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+       "Orazio Eramo", "Vittorio Ritelli", "Mariapia De Marzo"] 
+};
+
+datiFoto["F100"] = {
+evento: "Campionati studenteschi - Corsa ostacoli 10 Marzo 1958",
+persone: [
+       "Tonino Blasi"] 
+};
+
+datiFoto["F101"] = {
+evento: "Campionati studenteschi - Squadra Istituto Pitagora",
+persone: [
+       "Tonino Blasi", "+ Insegnante Educazione fisica e altri studenti"] 
+};
+
+datiFoto["F102"] = {
+evento: "Torneo di calcio Aziendale",
+persone: [
+       "Tonino Blasi", "???", "???", "Ing. Roberto Fabbri", "Ciccio Gentile",
+       "???", "???", "???", "Donato Galeone", "???", "???", "???"] 
+};
+
+
+
+
+
+
