@@ -706,7 +706,7 @@ persone: [
 datiFoto["F100"] = {
 evento: "Campionati studenteschi - Corsa ostacoli 10 Marzo 1958",
 persone: [
-       "Tonino Blasi"] 
+       "Primo arrivato -->", "Tonino Blasi"] 
 };
 
 datiFoto["F101"] = {
