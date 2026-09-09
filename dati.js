@@ -722,8 +722,66 @@ persone: [
        "???", "???", "???", "Donato Galeone", "???", "???", "???"] 
 };
 
+datiFoto["F103"] = {
+evento: "Centro mecanografico",
+persone: [
+       "Antonio Giove", "Orazio Meo", "Enzo Antonacci", "Angelo Ricciardi"]        
+};
 
+datiFoto["F104"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+       "Mimmo Pignatelli"]        
+};
 
+datiFoto["F105"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+       "Sebastiano Gonnella", "Alberto Belforte"]        
+};
 
+datiFoto["F106"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+       "Vito Calella"]        
+};
+
+datiFoto["F107"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+       "Antonio Ettorre"]        
+};
+
+datiFoto["F108"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+       "Peppe Margarita"]        
+};
+
+datiFoto["F109"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+       "Enzo De Leonardis", "Antonio Ettorre", "Carmelo Cacace"]        
+};
+
+datiFoto["F110"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+       "Carmine Mariella", "Mariapia De Marzo", "Rosa Lodeserto",
+       "Mariella Tnagorra", "Andrea Andolfatto", "Peppe Marangi",
+       "Antonio Ettorre"]        
+};
+
+datiFoto["F111"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+       "Claudio Virtù"]        
+};
+
+datiFoto["F112"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+       "Mariella Tangorra", "Antonio Candelli"]        
+};
 
 
