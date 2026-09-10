@@ -879,7 +879,8 @@ persone: [
 datiFoto["F128"] = {
 evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
 persone: [
-       "Mariella Tangorra", "Peppe Marangi"]        
+       "Matteo Mucci", "Orazio Eramo", "Rosa Lodeserto",
+       "Andrea Andolfatto", "Vito Calella"]        
 };
 
 datiFoto["F129"] = {
