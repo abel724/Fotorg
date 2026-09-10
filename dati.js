@@ -428,20 +428,20 @@ datiFoto["F061"] = {
 };
 
 datiFoto["F062"] = {
-    evento: "3° Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
+    evento: "4° Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
     persone: ["Piero Spedicati", "Mimmo Pignatelli", "Renzo Dolfini",
               "Emmanuele Latanza", "Sig.ra Latanza", "Remo Epifani", "Tonia Epifani",
-              "Rosa Lodeserto", "Franco Malknect", "Nicola Baldi", "Enzo Antonacci",
+              "Rosa Lodeserto", "Franco Malknecht", "Nicola Baldi", "Enzo Antonacci",
       "Vittorio Ritelli", "Mariapia De Marzo", "Mariella Tangorra", "Pippo Pasquino",
       "Orazio Eramo", "Rizzo G,", "Rizzo F.", "Egidio Burreddu", "Claudio Virtù",
       "Vito Calamita", "Angelo Nardelli"]
 };
 
 datiFoto["F063"] = {
-    evento: "3° Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
+    evento: "4° Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
     persone: ["Renzo Dolfini",
               "Emmanuele Latanza", "Sig.ra Latanza", "Tonia Epifani",
-              "Rosa Lodeserto", "Franco Malknect", "Nicola Baldi", "Enzo Antonacci",
+              "Rosa Lodeserto", "Franco Malknecht", "Nicola Baldi", "Enzo Antonacci",
       "Vittorio Ritelli", "Mariapia De Marzo", "Mariella Tangorra", "Pippo Pasquino",
       "Rizzo G,", "Rizzo F.", "Egidio Burreddu", "Claudio Virtù",
       "Vito Calamita", "Angelo Nardelli"]
@@ -453,7 +453,7 @@ datiFoto["F064"] = {
 };
 
 datiFoto["F065"] = {
-    evento: "3° Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
+    evento: "4° Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
     persone: ["Andrea Andolfatto", "Renzo Dolfini", "Renato Ingenito", 
        "Emmanuele Latanza", "Sig.ra Latanza", "Tonia Epifani", "Remo Epifani",
               "Vittorio Ritelli", "Michele Adamo", "Egidio Burreddu",        
@@ -768,7 +768,7 @@ datiFoto["F110"] = {
 evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
 persone: [
        "Carmine Mariella", "Mariapia De Marzo", "Rosa Lodeserto",
-       "Mariella Tnagorra", "Andrea Andolfatto", "Peppe Marangi",
+       "Mariella Tangorra", "Andrea Andolfatto", "Peppe Marangi",
        "Antonio Ettorre"]        
 };
 
@@ -847,15 +847,44 @@ persone: [
 };
 
 datiFoto["F123"] = {
-evento: "3° Raduno ORGonauti presso ristorante Rosso di Sera del 3/12/2025",
+evento: "3° Raduno ORGonauti presso Auchan del 03/12/2025",
 persone: [
        "Mariella Tangorra", "Peppe Marangi"]        
 };
 
+datiFoto["F124"] = {
+evento: "3° Raduno ORGonauti presso Auchan del 03/12/2025",
+persone: [
+       "Renato Ingenito", "Demo Bernardo", "Dino Tucci", "Elio Ferrari"]
+};
 
+datiFoto["F125"] = {
+evento: "3° Raduno ORGonauti presso Auchan del 03/12/2025",
+persone: [
+       "Gino Mazza"]        
+};
 
+datiFoto["F126"] = {
+evento: "3° Raduno ORGonauti presso Auchan del 03/12/2025",
+persone: [
+       "Mariapia De Marzo", "Rosa Lodeserto", "Vittorio Ritelli"]        
+};
 
+datiFoto["F127"] = {
+evento: "3° Raduno ORGonauti presso Auchan del 03/12/2025",
+persone: [
+       "Matteo Mucci", "Peppe Margarita", "Dino Tucci"]        
+};
 
+datiFoto["F128"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+       "Mariella Tangorra", "Peppe Marangi"]        
+};
 
-
+datiFoto["F129"] = {
+evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
+persone: [
+       "Rosa Lodeserto", "Vito Calella", "Dino Tucci"]        
+};
 
