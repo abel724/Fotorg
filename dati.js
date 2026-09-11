@@ -932,20 +932,17 @@ persone: [
        "Filippo Catapano"]        
 };
 
-datiFoto["F137"] = {
-evento: "Pensionamento di Rosa Lodeserto",
-persone: [
-        “Lino Battista”, “Tonia Torelli”, “Rosa Lodeserto”, “Orazio Eramo”,
-        “Pasquale Campo”, “?”, “Ciccio Gentile”,  “Vincenzo Bosco”, 
-        “Donato Sofia”, “Peppino Greco”, “Enzo De Leonardis”, “Ciccio Lusso”,
-        “Fausta Marino”, “?”, “Peppe Axo”]
+datiFoto["F137"] = { evento: "Pensionamento di Rosa Lodeserto", 
+persone: [ "Lino Battista", "Tonia Torelli", "Rosa Lodeserto", "Orazio Eramo", 
+"Pasquale Campo", "?", "Ciccio Gentile", "Vincenzo Bosco", "Donato Sofia", 
+"Peppino Greco", "Enzo De Leonardis", "Ciccio Lusso", "Fausta Marino", "?", 
+"Peppe Axo"]
 }; 
 
-datiFoto["F138"] = {
-evento: "Pensionamento di Rosa Lodeserto",
-persone: [
-        “?”, “?”, “Giovanni Spagnolo”, “Luciano Cambara”, “Ciccio Lusso”,
-       “Enzo De Leonardis”, “Rosa Lodeserto”, “Giovanni Tagliente”,
-       “Ciccio Gentile”, “?”, “Fausta Marino”,
-       “Stefano Bellucco”, “Remo Epifani”, “Franco De Vitis”]      
-}; 
+datiFoto["F138"] = { evento: "Pensionamento di Rosa Lodeserto", 
+persone: [ "?", "?", "Giovanni Spagnolo", "Luciano Cambara", "Ciccio Lusso", 
+"Enzo De Leonardis", "Rosa Lodeserto", "Giovanni Tagliente", "Ciccio Gentile", 
+"?", "Fausta Marino", "Stefano Bellucco", "Remo Epifani", "Franco De Vitis"] 
+};
+
+ 
