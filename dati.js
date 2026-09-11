@@ -530,7 +530,7 @@ datiFoto["F074"] = {
 datiFoto["F075"] = {
  evento: "Centro meccanografico",
  persone: [
-       "??", "Peppe Perruccio", "Cesarino Gervasi",  
+       "??", "Peppino Conte", "Peppe Perruccio", "Cesarino Gervasi",  
        "Peppe Perruccio", "Tonino Chimenti", "Enzo Innato"]
 };
 
@@ -555,7 +555,7 @@ persone: [
 datiFoto["F079"] = {
 evento: "Centro meccanografico",
 persone: [
-  "Franco Marzo", "Vittorio Ritelli", "e l'altro?"] 
+  "Franco Marzo", "Vittorio Ritelli", "Memmo Bonifazi"] 
 };
 
 datiFoto["F080"] = {
@@ -658,7 +658,7 @@ persone: [
 datiFoto["F093"] = {
 evento: "Corso IFAP a Roma",
 persone: [
-       "Martino Bonifacio", "Donato Addabbo", "Minei", "Orazio Eramo"] 
+       "Memmo Bonifazi", "Donato Addabbo", "Minei", "Orazio Eramo"] 
 };
 
 datiFoto["F094"] = {
@@ -889,3 +889,63 @@ persone: [
        "Rosa Lodeserto", "Vito Calella", "Dino Tucci"]        
 };
 
+datiFoto["F130"] = {
+evento: "Nuova Direzione",
+persone: [
+       "Portineria Nuova DIS"]        
+};
+
+datiFoto["F131"] = {
+evento: "Nuova Direzione",
+persone: [
+       "Ingresso Nuova DIS"]        
+};
+
+datiFoto["F132"] = {
+evento: "Marchio Elaboratori",
+persone: [
+       "Univac"]        
+};
+
+datiFoto["F133"] = {
+evento: "Centro mecanografico",
+persone: [
+       "Paolo Pascale"]        
+};
+
+datiFoto["F134"] = {
+evento: "Centro mecanografico",
+persone: [
+       "Sala Elaboratori Elettronici"]        
+};
+
+datiFoto["F135"] = {
+evento: "Ufficio Nuova Direzione",
+persone: [
+       "Gianni Fusco", "Pino Campanelli"]        
+};
+
+datiFoto["F136"] = {
+evento: "Pensionamento di Rosa Lodeserto",
+persone: [
+       "???", "Ciccio Gentile", "Rosa Lodeserto",
+       "Filippo Catapano"]        
+};
+
+datiFoto["F137"] = {
+evento: "Pensionamento di Rosa Lodeserto",
+persone: [
+        “Lino Battista”, “Tonia Torelli”, “Rosa Lodeserto”, “Orazio Eramo”,
+        “Pasquale Campo”, “?”, “Ciccio Gentile”,  “Vincenzo Bosco”, 
+        “Donato Sofia”, “Peppino Greco”, “Enzo De Leonardis”, “Ciccio Lusso”,
+        “Fausta Marino”, “?”, “Peppe Axo”]
+}; 
+
+datiFoto["F138"] = {
+evento: "Pensionamento di Rosa Lodeserto",
+persone: [
+        “?”, “?”, “Giovanni Spagnolo”, “Luciano Cambara”, “Ciccio Lusso”,
+       “Enzo De Leonardis”, “Rosa Lodeserto”, “Giovanni Tagliente”,
+       “Ciccio Gentile”, “?”, “Fausta Marino”,
+       “Stefano Bellucco”, “Remo Epifani”, “Franco De Vitis”]      
+}; 
