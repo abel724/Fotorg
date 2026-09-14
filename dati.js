@@ -266,7 +266,7 @@ datiFoto["F032"] = {
 datiFoto["F033"] = {
     evento: "Centro meccanografico siderurgico",
 
-    persone: ["Enzo Loperfido", "Franco Fuggiano", "Vito De Padova"]
+    persone: ["Vito De Padova", "Franco Fuggiano", "Enzo Loperfido"]
 };
 
 datiFoto["F034"] = {
