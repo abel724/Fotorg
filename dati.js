@@ -45,9 +45,10 @@ datiFoto["F007"] = {
              ]
 };
 datiFoto["F008"] = {
-    evento: "Cena per avviamento progetto",
+    evento: "Corso IFAP a Roma 1981",
     persone: [
         "Cesarino Gervasi",
+        "Lino Battista",
         "Sebastiano Gonnella",
         "Piero Spedicati",
         "Antonio Violino",
