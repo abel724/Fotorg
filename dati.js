@@ -695,7 +695,7 @@ persone: [
 datiFoto["F098"] = {
 evento: "2° Raduno ORGonauti presso ristorante Rosso di Sera del 9/05/2025",
 persone: [
-       "Piero Spedicati", "???", "Alberto Belforte"] 
+       "Piero Spedicati", "Alberto Belforte"] 
 };
 
 datiFoto["F099"] = {
