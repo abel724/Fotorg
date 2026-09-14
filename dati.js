@@ -387,8 +387,8 @@ datiFoto["F054"] = {
 
 datiFoto["F055"] = {
     evento: "Salone nuova DIS",
-    persone: ["Ciccio Lusso", "Alberto Valente", "Donato Sofia", "??",
-              "Franco Presicci", "Giuseppe Marinelli", "Enzo De Leonardis", "Mario De Mitri",
+    persone: ["Ciccio Lusso", "Alberto Valente", "Donato Sofia", "Giuseppe Marinelli",
+              "Franco Presicci", "Enzo De Leonardis", "Mario De Mitri",
               "Luciano Cambara", "Rosa Lodeserto"]
 };
 
