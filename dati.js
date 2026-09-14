@@ -659,7 +659,7 @@ persone: [
 datiFoto["F093"] = {
 evento: "Corso IFAP a Roma",
 persone: [
-       "Memmo Bonifazi", "Donato Addabbo", "Minei", "Orazio Eramo"] 
+       "Martino Bonifacio", "Donato Addabbo", "Minei", "Orazio Eramo"] 
 };
 
 datiFoto["F094"] = {
