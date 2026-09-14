@@ -54,7 +54,6 @@ datiFoto["F008"] = {
         "Antonio Violino",
         "Vito Calamita",
         "Peppe Axo",
-        "Lino Battista",
         "Pasquale Ferrara",
         "Antonio Candelli"
     ]
@@ -92,6 +91,7 @@ datiFoto["F010"] = {
         "Stefano Bellucco",
         "Giovanni Spagnuolo",
         "Raffaele Aceto",
+        "Enzo Antonacci",
         "Pippo Pasquino"
     ]
 };
@@ -266,7 +266,7 @@ datiFoto["F032"] = {
 datiFoto["F033"] = {
     evento: "Centro meccanografico siderurgico",
 
-    persone: ["Enzo Loperfido", "Franco Fuggiano", "??"]
+    persone: ["Enzo Loperfido", "Franco Fuggiano", "Vito De Padova"]
 };
 
 datiFoto["F034"] = {
@@ -279,7 +279,7 @@ datiFoto["F034"] = {
 datiFoto["F035"] = {
     evento: "Salone nuova DIS",
     persone: ["Antonio Giove", "Pasquale Ferrara", "Nando Carfora",
-              "Carmine Mariella"]
+              "Carmine Mariella", "Antonio Laghezza"]
 };
 
 datiFoto["F036"] = {
@@ -388,7 +388,7 @@ datiFoto["F054"] = {
 datiFoto["F055"] = {
     evento: "Salone nuova DIS",
     persone: ["Ciccio Lusso", "Alberto Valente", "Donato Sofia", "??",
-              "Franco Presicci", "??", "Enzo De Leonardis", "Mario De Mitri",
+              "Franco Presicci", "Giuseppe Marinelli", "Enzo De Leonardis", "Mario De Mitri",
               "Luciano Cambara", "Rosa Lodeserto"]
 };
 
@@ -929,7 +929,7 @@ persone: [
 datiFoto["F136"] = {
 evento: "Pensionamento di Rosa Lodeserto",
 persone: [
-       "???", "Ciccio Gentile", "Rosa Lodeserto",
+       "Giuseppe Marinelli", "Ciccio Gentile", "Rosa Lodeserto",
        "Filippo Catapano"]        
 };
 
@@ -943,7 +943,7 @@ persone: [ "Lino Battista", "Tonia Torelli", "Rosa Lodeserto", "Orazio Eramo",
 datiFoto["F138"] = { evento: "Pensionamento di Rosa Lodeserto", 
 persone: [ "?", "?", "Giovanni Spagnolo", "Luciano Cambara", "Ciccio Lusso", 
 "Enzo De Leonardis", "Rosa Lodeserto", "Giovanni Tagliente", "Ciccio Gentile", 
-"?", "Fausta Marino", "Stefano Bellucco", "Remo Epifani", "Franco De Vitis"] 
+"Giuseppe Marinelli", "Fausta Marino", "Stefano Bellucco", "Remo Epifani", "Franco De Vitis"] 
 };
 
  
