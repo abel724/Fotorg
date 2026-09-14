@@ -941,9 +941,9 @@ persone: [ "Lino Battista", "Tonia Torelli", "Rosa Lodeserto", "Orazio Eramo",
 }; 
 
 datiFoto["F138"] = { evento: "Pensionamento di Rosa Lodeserto", 
-persone: [ "?", "?", "Giovanni Spagnolo", "Luciano Cambara", "Ciccio Lusso", 
+persone: [ "?", "Giuseppe Marinelli", "Giovanni Spagnolo", "Luciano Cambara", "Ciccio Lusso", 
 "Enzo De Leonardis", "Rosa Lodeserto", "Giovanni Tagliente", "Ciccio Gentile", 
-"Giuseppe Marinelli", "Fausta Marino", "Stefano Bellucco", "Remo Epifani", "Franco De Vitis"] 
+"Fausta Marino", "Stefano Bellucco", "Remo Epifani", "Franco De Vitis"] 
 };
 
  
