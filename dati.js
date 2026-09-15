@@ -946,4 +946,10 @@ persone: [ "?", "Giuseppe Marinelli", "Giovanni Spagnolo", "Luciano Cambara", "C
 "Fausta Marino", "Stefano Bellucco", "Remo Epifani", "Franco De Vitis"] 
 };
 
+datiFoto["F139"] = {
+    evento: "Due vecchi amici al bar",
+    persone: ["Gianni Fusco", "Donato Michea"]
+};
+
+
  
