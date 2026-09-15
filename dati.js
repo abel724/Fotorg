@@ -947,7 +947,7 @@ persone: [ "?", "Giuseppe Marinelli", "Giovanni Spagnolo", "Luciano Cambara", "C
 };
 
 datiFoto["F139"] = {
-    evento: "Abbiamo due vecchi amici al bar",
+    evento: "Due vecchi amici al bar",
     persone: ["Gianni Fusco", "Donato Michea"]
 };
 
