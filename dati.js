@@ -1,4 +1,4 @@
-const datiFoto = {};
+5const datiFoto = {};
 
 for (let i = 1; i <= 150; i++) {
     const numero = String(i).padStart(3, "0");
@@ -947,7 +947,7 @@ persone: [ "?", "Giuseppe Marinelli", "Giovanni Spagnolo", "Luciano Cambara", "C
 };
 
 datiFoto["F139"] = {
-    evento: "Due vecchi amici al bar",
+    evento: "Due amici al bar",
     persone: ["Gianni Fusco", "Donato Michea"]
 };
 
