@@ -680,10 +680,11 @@ persone: [
 };
 
 datiFoto["F096"] = {
-evento: "Pensione Orazio Eramo",
+evento: "Pensione Orazio Eramo 30/04/1998",
 persone: [
-       "Fabrizio Mineo", "Enzo De Leonardis", "Donato Addabbo", "Orazio Eramo",
-       "Mimmo Nigro", "Carmelo Cacace", "Mario Stranieri", "Carletto Striccoli"] 
+       "Fabrizio Mineo", "Pasquale De Leonardis", "Donato Addabbo", "Orazio Eramo",
+       "Mimmo Nigro", "Carmelo Cacace", "Mario Stranieri", "Carletto Striccoli",
+       "Martino Liuzzi"] 
 };
 
 datiFoto["F097"] = {
@@ -1005,3 +1006,16 @@ evento: "Pensionamento di Donato Addabbo e Dino Rondinelli del 27/09/2007",
 persone: [
    "Dino Rondinelli", "Angelo Rusciano"]        
 };
+
+datiFoto["F149"] = { evento: "Pensionamento di Rosa Lodeserto", 
+persone: [  
+    "Paolo Pascale", "Luciano Cambara", "Pasquale Campo", "Tonia Torelli", 
+    "Lino Battista", "Rosa Lodeserto", "Piera Forleo", "Vincenzo Bosco",  
+    "Peppino Greco"]
+}; 
+
+datiFoto["F150"] = { evento: "Pensionamento di Rosa Lodeserto", 
+persone: [  
+    "Enzo Bariscian0", "Michele Grandolfo", "Remo Epifani", "Luciano Cambara", 
+    "Giuseppe Marinelli", "Vittorio Ritelli", "Rosa Lodeserto", "Filomena Leucci"]    
+}; 
