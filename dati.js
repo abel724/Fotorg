@@ -1,6 +1,6 @@
 const datiFoto = {};
 
-for (let i = 1; i <= 150; i++) {
+for (let i = 1; i <= 200; i++) {
     const numero = String(i).padStart(3, "0");
 
     datiFoto["F" + numero] = {
@@ -687,9 +687,9 @@ persone: [
 };
 
 datiFoto["F097"] = {
-evento: "Pensione Cambara?",
+evento: "Pensione Cambara",
 persone: [
-       "Pippo Pasquino", "Andrea Illiopulos", "Costantino", "Luciano Cambara"] 
+       "Pippo Pasquino", "Donato Addabbo", "Costantino", "Luciano Cambara"] 
 };
 
 datiFoto["F098"] = {
@@ -952,4 +952,56 @@ persone: [
        "Gianni Fusco", "Donato Michea"]        
 };
 
+datiFoto["F140"] = {
+evento: "Pensionamento di Donato Addabbo e Dino Rondinelli del 27/09/2007",
+persone: [
+ "Ciccio Pignatelli", "Dino Rondinelli", "Roberto Di Sessa", "Pasquale De Leonardis"]        
+};
 
+datiFoto["F141"] = {
+evento: "Pensionamento di Donato Addabbo e Dino Rondinelli del 27/09/2007",
+persone: [
+ "Donato Addabbo", "Mimmo Ferrucci", "Federica Olivoni", "Gianni Marsella"]        
+};
+
+datiFoto["F142"] = {
+evento: "Pensionamento di Donato Addabbo e Dino Rondinelli del 27/09/2007",
+persone: [
+  "Enzo Antonacci", "Enzo Loperfido", "Donato Addabbo", "Raffaele Cocchiaro"]        
+};
+
+datiFoto["F143"] = {
+evento: "Pensionamento di Donato Addabbo e Dino Rondinelli del 27/09/2007",
+persone: [
+   "Donato Addabbo", "Roberto Di Sessa", "Gianni Marsella"]        
+};
+
+datiFoto["F144"] = {
+evento: "Pensionamento di Donato Addabbo e Dino Rondinelli del 27/09/2007",
+persone: [
+   "Dino Rondinelli", "Emanuele Galasso"]        
+};
+
+datiFoto["F145"] = {
+evento: "Pensionamento di Donato Addabbo e Dino Rondinelli del 27/09/2007",
+persone: [
+   "Mimmo Nigro", "Dino Rondinelli", "Massimo Fornaro", "???"]        
+};
+
+datiFoto["F146"] = {
+evento: "Pensionamento di Donato Addabbo e Dino Rondinelli del 27/09/2007",
+persone: [
+   "Antonio Spinosa", "Dino Rondinelli", "???"]        
+};
+
+datiFoto["F147"] = {
+evento: "Pensionamento di Donato Addabbo e Dino Rondinelli del 27/09/2007",
+persone: [
+   "???", "Dino Rondinelli", "Peppe Bottiglia"]        
+};
+
+datiFoto["F148"] = {
+evento: "Pensionamento di Donato Addabbo e Dino Rondinelli del 27/09/2007",
+persone: [
+   "Dino Rondinelli", "Angelo Rusciano"]        
+};
