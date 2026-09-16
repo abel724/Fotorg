@@ -1,4 +1,4 @@
-5const datiFoto = {};
+const datiFoto = {};
 
 for (let i = 1; i <= 150; i++) {
     const numero = String(i).padStart(3, "0");
