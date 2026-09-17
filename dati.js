@@ -994,7 +994,7 @@ persone: [
 datiFoto["F146"] = {
 evento: "Pensionamento di Donato Addabbo e Dino Rondinelli del 27/09/2007",
 persone: [
-   "Antonio Spinosa", "Dino Rondinelli", "???"]        
+   "Antonio Spinosa", "Dino Rondinelli", "Giuseppe Monterisi"]        
 };
 
 datiFoto["F147"] = {
