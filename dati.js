@@ -271,9 +271,10 @@ datiFoto["F033"] = {
 
 datiFoto["F034"] = {
     evento: "Squadra di calcio torneo Interno ORG",
-    persone: ["Arturo Imperio", "Ciccio Lusso", "?", "?", 
-              "Franco Perna", "Pietro Primiceri", "Stefano Bellucco", 
-              "Vito Calamita", "Franco Presicci", "Mario Sarra", "e Altri"]
+    persone: ["Arturo Imperio", "Ciccio Lusso", "Emanuele Gigante", "?", 
+     "Franco Perna", "Pietro Primiceri", "Stefano Bellucco", "Giovanni De Vitis", 
+     "Vito Calamita", "Franco Presicci", "Mario Sarra", "Angelo Mariuccia",
+     "Enzo Palermo", "..altri"]
 };
 
 datiFoto["F035"] = {
@@ -298,7 +299,8 @@ datiFoto["F037"] = {
 
 datiFoto["F038"] = {
    evento: "Squadra di calcio torneo Interno ORG",
-   persone: ["Peppe Marangi", "Franco Perna", "Pino Calamita", "Raffaele Aceto", 
+   persone: ["Peppe Marangi", "Lino Iacobino", "Franco Perna", "Pino Calamita", 
+             "Raffaele Aceto", "Cosimo Pulpito", "Antonio Violino", 
               "Piero Spedicati"]
                             
 };
