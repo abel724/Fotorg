@@ -299,9 +299,9 @@ datiFoto["F037"] = {
 
 datiFoto["F038"] = {
    evento: "Squadra di calcio torneo Interno ORG",
-   persone: ["Peppe Marangi", "Lino Iacobino", "Franco Perna", "Pino Calamita", 
+   persone: ["Peppe Marangi", "Lino Iacobino", "Franco Perna", "Vito Calamita", 
              "Raffaele Aceto", "Cosimo Pulpito", "Antonio Violino", 
-              "Piero Spedicati"]
+              ]
                             
 };
 
