@@ -408,17 +408,26 @@ datiFoto["F057"] = {
 
 datiFoto["F058"] = {
     evento: "Incontro a pranzo al ristorante la Paranza del 17/12/2025",
-    persone: ["Nicola Mastrorocco", "Michele Adamo", "Rocco De Luca"
-              ]
+    persone: ["Nicola Mastrorocco", "Michele Adamo", "Rocco De Luca" ]
 };
 
+datiFoto["F059"] = {
+    evento:  "Pensionamento di Rosa Lodeserto", 
+    persone: [
+     "Carletto Striccoli", "Tonino Otranto", "Franco De Vitis", "Rina De Bartolomeo",
+     "Rosa Lodeserto", "Peppe Palma", "Pasquale Ferrara", "Vincenzo Bosco" ]
+};
 
 datiFoto["F060"] = {
     evento: "Incontro a pranzo al ristorante la Paranza del 17/12/2025",
-    persone: ["Nicola Mastrorocco", "Michele Adamo", "Rocco De Luca"
-              ]
+    persone: ["Nicola Mastrorocco", "Michele Adamo", "Rocco De Luca" ]
 };
 
+datiFoto["F061"] = {
+    evento: "Pensionamento di Donato Addabbo e Dino Rondinelli del 27/09/2007",
+    persone: ["Donato Addabbo", "Mimmo Nigro", "Mimmo Ferrucci",
+              "Pasquale De Leonardis", "Antonio Spinosa" ]
+};
 
 datiFoto["F062"] = {
     evento: "Quarto Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
