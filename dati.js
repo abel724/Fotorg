@@ -412,11 +412,6 @@ datiFoto["F058"] = {
               ]
 };
 
-datiFoto["F059"] = {
-    evento: "Incontro a pranzo al ristorante la Paranza del 17/12/2025",
-    persone: ["Nicola Mastrorocco", "Michele Adamo", "Rocco De Luca"
-              ]
-};
 
 datiFoto["F060"] = {
     evento: "Incontro a pranzo al ristorante la Paranza del 17/12/2025",
@@ -424,11 +419,6 @@ datiFoto["F060"] = {
               ]
 };
 
-datiFoto["F061"] = {
-    evento: "Incontro a pranzo al ristorante la Paranza del 17/12/2025",
-    persone: ["Nicola Mastrorocco", "Michele Adamo", "Rocco De Luca"
-              ]
-};
 
 datiFoto["F062"] = {
     evento: "Quarto Raduno ORGonauti Presso ristorante daMe' del 14/05/2026",
