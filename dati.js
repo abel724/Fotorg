@@ -1022,3 +1022,14 @@ persone: [
     "Enzo Bariscian0", "Michele Grandolfo", "Remo Epifani", "Luciano Cambara", 
     "Giuseppe Marinelli", "Vittorio Ritelli", "Rosa Lodeserto", "Filomena Leucci"]    
 }; 
+
+datiFoto["F151"] = { evento: "Foto 1992 1993", 
+persone: [  
+    "Salvatore Di Noia", "Mimmo Ferrucci", "Nico Brancato", "Roberto Di Paola" ]    
+}; 
+
+datiFoto["F152"] = { evento: "Foto 1992 1993", 
+persone: [  
+    "Peppe Axo", "Mimmo Ferrucci", "Roberto Di Paola", "Elio Ferrari" ]    
+}; 
+
