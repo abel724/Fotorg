@@ -1031,5 +1031,28 @@ persone: [
 datiFoto["F152"] = { evento: "Foto 1992 1993", 
 persone: [  
     "Peppe Axo", "Mimmo Ferrucci", "Roberto Di Paola", "Elio Ferrari" ]    
+};
+
+datiFoto["F153"] = {
+    evento: "Squadra di calcio ORG",
+    persone: ["Pietro Primiceri", "Orazio Meo", "Antonio Violino", 
+     "Ciccio Lusso", "Gennaro Bertetti", "Leonardo Francavilla",      
+      "..e altri"]
 }; 
+
+datiFoto["F154"] = { evento: "Foto 1992 1993", 
+persone: [  
+    "Nico Brancato", "Mimmo Ferrucci", "Elio Ferrari", "Roberto Di Paola" ]    
+};
+
+datiFoto["F155"] = { evento: "Foto 1992 1993", 
+persone: [  
+    "Mimmo Ferrucci", "Roberto Di Paola", "Nico Brancato", "Stefano Bellucco" ]    
+};
+
+datiFoto["F156"] = { evento: "Foto 1992 1993", 
+persone: [  
+    "Mimmo Nigro", "?", "Umberto Nobile", "Enzo Barisciano", "Peppe Axo",
+    "Stefano Bellucco", "Ciccio Pignatelli", "Mimmo Ferrucci", "Antonio Causio" ]    
+};
 
