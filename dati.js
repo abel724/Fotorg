@@ -1056,3 +1056,25 @@ persone: [
     "Stefano Bellucco", "Ciccio Pignatelli", "Mimmo Ferrucci", "Antonio Causio" ]    
 };
 
+datiFoto["F157"] = { evento: "Foto 1992 1993", 
+persone: [  
+    "Antonio Violino", "Marcello Zuccarini", "Gilberto Dibattista" ]    
+};
+
+datiFoto["F158"] = { evento: "Foto 1992 1993", 
+persone: [  
+    "Claudio Graziano", "Mimmo Pignatelli", "Antonio Violino" ]   
+}; 
+
+datiFoto["F159"] = { evento: "Foto 1992 1993", 
+persone: [  
+    "Angelo Prete", "Claudio Graziano", "Enzo Barisciano", "Mimmo Pignatelli",
+    "Elio Ferrari", "Antonio Violino" ]    
+};
+
+datiFoto["F160"] = { evento: "Foto 1992 1993", 
+persone: [  
+    "Antonio Causio", "Roberto Di Paola", "Elio Ferrari", "Franco Polistena" ]   
+}; 
+ 
+
