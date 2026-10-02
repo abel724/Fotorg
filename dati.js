@@ -1091,8 +1091,8 @@ datiFoto["F161"] = {
 
 datiFoto["F162"] = { evento: "Pensionamento di Vittorio Ritelli 31/10/1993", 
 persone: [  
-    "Giancarlo Maccagnani", "Ciccio Lusso", "Antonio Mineo", "Vittorio Ritelli", 
-    "Dino Tucci", "Michele Grandolfo", "Remo Epifani", "Alberto Belforte"]
+    "Azzolini", "Ciccio Lusso", "Antonio Mineo", "Peppe Margarita", "Vittorio Ritelli", 
+    "Dino Tucci", "Michele Grandolfo", "Remo Epifani", "Alberto Belforte", "Costantino Raffa"]
 }; 
 
 datiFoto["F163"] = { evento: "Pensionamento di Vittorio Ritelli 31/10/1993", 
