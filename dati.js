@@ -667,11 +667,17 @@ persone: [
 datiFoto["F094"] = {
 evento: "Pensione Ciccio Lusso e Remo Epifani Febbraio 1997",
 persone: [
-       "Raffaele Cocchiaro", "Enzo Loperfido", "Ciccio Lusso", "Anna Cavallo",       
+     "Raffaele Cocchiaro", "Enzo Loperfido", "Ciccio Lusso", "Anna Cavallo",       
      "Vittorio Ritelli", "Nicola Mastrorocco", "Remo Epifani", "Carletto Striccoli",
-       "Enzo Innato", "Carmelo Cacace", "Franco Perna", "Lorenzo Barulli",
-       "Pippo Pasquino", "Enzo Antonacci", "Orazio Eramo", "Gino Palomba",
-       "Nicola Chisena", "Mimmo Ferrucci", "Peppe Axo", "..altri"] 
+     "Enzo Innato", "Carmelo Cacace", "Franco Perna", "Lorenzo Barulli",
+     "Pippo Pasquino", "Enzo Antonacci", "Orazio Eramo", "Gino Palomba",
+     "Nicola Chisena", "Mimmo Ferrucci", "Peppe Axo", "Peppe Bottiglia", 
+     "Franco Fugiano", "Silvano Fasano", "Benedetto Pignatelli", "Emanuele Galasso",
+     "Vittorio Ritelli", "Nino Cattolico", "Tonino Otranto", "Luciano Cambara",
+     "Michele Birtolo", "Vito Calamita", "Ettore Branca", "Pino Campanelli", 
+     "Lino Battista", "Ciccio Gentile", "Antonio Carrino", "Nicola Gigante",
+     "Gilberto Di Battista", "Mimmo Elia", "Giancarlo Maccagnani", 
+     "Italo De Michele", "Antonio Minei", "Gennaro Bertetti", "Tecnico Unisys"]
 };
 
 datiFoto["F095"] = {
@@ -1076,5 +1082,26 @@ datiFoto["F160"] = { evento: "Foto 1992 1993",
 persone: [  
     "Antonio Causio", "Roberto Di Paola", "Elio Ferrari", "Franco Polistena" ]   
 }; 
+
+datiFoto["F161"] = {
+    evento: "Squadra dei 'Briganti' vincitrice di un torneo interno di ORG",
+    persone: ["Vozza", "Benedetto Pignatelli", "Franco Perna", "Presicci", 
+     "Franco De Vitis", "???", "Iacobino", "Pulpito", "Piero Nasole"]
+};
+
+datiFoto["F162"] = { evento: "Pensionamento di Vittorio Ritelli 31/10/1993", 
+persone: [  
+    "Giancarlo Maccagnani", "Ciccio Lusso", "Antonio Mineo", "Vittorio Ritelli", 
+    "Dino Tucci", "Michele Grandolfo", "Remo Epifani", "Alberto Belforte"]
+}; 
+
+datiFoto["F163"] = { evento: "Pensionamento di Vittorio Ritelli 31/10/1993", 
+persone: [  
+    "Disegno fatto dalla figlia di Giancarlo Maccagnani"]
+}; 
+
+
+
+
  
 
