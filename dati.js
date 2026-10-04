@@ -1105,6 +1105,7 @@ persone: [
 "Azzolini", "Franco Marzo", "Sig.ra Marzo", "Remo Epifani", "Mario Stranieri", 
     "Bruno Di Castri", "Peppe Marangi", "Nicola Mastrorocco", "Sig.ra Dora Mastrorocco", 
     "Carmelo Doria", "Rocco DecLuca"]
+};
 
 
 
