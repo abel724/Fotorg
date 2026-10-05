@@ -1100,6 +1100,13 @@ persone: [
     "Disegno fatto dalla figlia di Giancarlo Maccagnani"]
 }; 
 
+datiFoto["F164"] = { evento: "Natrimonio Nicola Mastrorocco 13/06/1970", 
+persone: [  
+"Azzolini", "Franco Marzo", "Sig.ra Marzo", "???", "Remo Epifani", "Mario Stranieri", 
+    "Bruno Di Castri", "Peppe Marangi", "Nicola Mastrorocco", "Sig.ra Dora Mastrorocco", 
+    "Carmelo Doria", "Rocco De Luca"]
+};
+
 
 
 
