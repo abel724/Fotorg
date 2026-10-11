@@ -1102,7 +1102,7 @@ persone: [
     "Disegno fatto dalla figlia di Giancarlo Maccagnani"]
 }; 
 
-datiFoto["F164"] = { evento: "prova Matrimonio Nicola Mastrorocco 13/06/1970", 
+datiFoto["F164"] = { evento: "Matrimonio Nicola Mastrorocco 13/06/1970", 
 persone: [  
     "Franco Marzo", "Sig.ra Marzo", "???", "Remo Epifani", "Mario Stranieri", 
     "Bruno Di Castri", "Peppe Marangi", "Nicola Mastrorocco", "Sig.ra Dora Mastrorocco", 
