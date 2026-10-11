@@ -1041,9 +1041,11 @@ persone: [
 
 datiFoto["F153"] = {
     evento: "Squadra di calcio ORG",
-    persone: ["Pietro Primiceri", "Orazio Meo", "Antonio Violino", 
-     "Ciccio Lusso", "Gennaro Bertetti", "Leonardo Francavilla",      
-      "..e altri"]
+    persone: [
+      "Pietro Primiceri", "Orazio Meo", "Antonio Violino", "Giorgio Travagli", 
+      "Peppe Magarelli", "Peppe Rizzo", "???", "Antonio Violiono", "Elio Ferrari", 
+     "Ciccio Lusso", "Leonardo Francavilla", "???", "Gennaro Bertetti",       
+      "Enzo Antonacci"]
 }; 
 
 datiFoto["F154"] = { evento: "Foto 1992 1993", 
@@ -1058,7 +1060,7 @@ persone: [
 
 datiFoto["F156"] = { evento: "Foto 1992 1993", 
 persone: [  
-    "Mimmo Nigro", "?", "Umberto Nobile", "Enzo Barisciano", "Peppe Axo",
+    "Mimmo Nigro", "Nico Brancato", "Umberto Nobile", "Enzo Barisciano", "Peppe Axo",
     "Stefano Bellucco", "Ciccio Pignatelli", "Mimmo Ferrucci", "Antonio Causio" ]    
 };
 
@@ -1075,7 +1077,7 @@ persone: [
 datiFoto["F159"] = { evento: "Foto 1992 1993", 
 persone: [  
     "Angelo Prete", "Claudio Graziano", "Enzo Barisciano", "Mimmo Pignatelli",
-    "Elio Ferrari", "Antonio Violino" ]    
+    "Elio Ferrari", "Peppe Axo", "Antonio Violino" ]    
 };
 
 datiFoto["F160"] = { evento: "Foto 1992 1993", 
@@ -1100,9 +1102,9 @@ persone: [
     "Disegno fatto dalla figlia di Giancarlo Maccagnani"]
 }; 
 
-datiFoto["F164"] = { evento: "Natrimonio Nicola Mastrorocco 13/06/1970", 
+datiFoto["F164"] = { evento: "Matrimonio Nicola Mastrorocco 13/06/1970", 
 persone: [  
-"Azzolini", "Franco Marzo", "Sig.ra Marzo", "???", "Remo Epifani", "Mario Stranieri", 
+    "Franco Marzo", "Sig.ra Marzo", "???", "Remo Epifani", "Mario Stranieri", 
     "Bruno Di Castri", "Peppe Marangi", "Nicola Mastrorocco", "Sig.ra Dora Mastrorocco", 
     "Carmelo Doria", "Rocco De Luca"]
 };
