@@ -306,7 +306,7 @@ datiFoto["F038"] = {
 };
 
 datiFoto["F039"] = {
-    evento: "Squadra di calcio torneo Interno ORG",
+    evento: "Primo Raduno ORGonauti Presso Auchan del 18/12/2024",
  persone: ["Maurizio Sarti", "Dino Rondinelli", "Enzo De Leonardis", "Claudio Virtù"]
                             
 };
@@ -1086,7 +1086,7 @@ persone: [
 }; 
 
 datiFoto["F161"] = {
-    evento: "Squadra dei 'Briganti' vincitrice di un torneo interno di ORG",
+    evento: "Squadra di calcio 'I Briganti' vincitrice di un torneo interno di ORG",
     persone: ["Vozza", "Benedetto Pignatelli", "Franco Perna", "Presicci", 
      "Franco De Vitis", "???", "Iacobino", "Pulpito", "Piero Nasole"]
 };
